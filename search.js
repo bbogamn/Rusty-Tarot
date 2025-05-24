@@ -1,1 +1,34 @@
-const input=document.getElementById("search-input"),suggestionsBox=document.getElementById("suggestions"),errorBox=document.getElementById("error-message");input.addEventListener("input",()=>{const e=input.value.toLowerCase().trim();if(suggestionsBox.innerHTML="",errorBox.textContent="",!(e.length<2)){const t=cards.filter(t=>t.title.ru.toLowerCase().includes(e)||t.title.en.toLowerCase().includes(e)||t.character.ru.toLowerCase().includes(e)||t.character.en.toLowerCase().includes(e));0===t.length?errorBox.textContent="Карта не найдена. Проверьте написание.":t.slice(0,5).forEach(e=>{const t=document.createElement("li");t.textContent=e.title.ru+" / "+e.title.en,t.onclick=()=>{const t=e.title.en.toLowerCase().replace(/ /g,"_");window.location.href=`card.html?name=${t}`},suggestionsBox.appendChild(t)})}});
+
+const input = document.getElementById("search-input");
+const suggestionsBox = document.getElementById("suggestions");
+const errorBox = document.getElementById("error-message");
+
+input.addEventListener("input", () => {
+  const query = input.value.toLowerCase().trim();
+  suggestionsBox.innerHTML = "";
+  errorBox.textContent = "";
+
+  if (query.length < 2) return;
+
+  const matches = cards.filter(c =>
+    c.title.ru.toLowerCase().includes(query) ||
+    c.title.en.toLowerCase().includes(query) ||
+    c.character.ru.toLowerCase().includes(query) ||
+    c.character.en.toLowerCase().includes(query)
+  );
+
+  if (matches.length === 0) {
+    errorBox.textContent = "Карта не найдена.";
+    return;
+  }
+
+  matches.slice(0, 5).forEach(card => {
+    const li = document.createElement("li");
+    li.textContent = card.title.ru + " / " + card.title.en;
+    li.onclick = () => {
+      const cardName = card.title.en.toLowerCase().replace(/ /g, "_");
+      window.location.href = `card.html?name=${cardName}`;
+    };
+    suggestionsBox.appendChild(li);
+  });
+});
