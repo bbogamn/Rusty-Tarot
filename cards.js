@@ -1,1874 +1,1874 @@
 const cards = [
   {
     "title": {
-      "en": "Card 1",
-      "ru": "Карта 1"
+      "en": "The Fool",
+      "ru": "The Fool"
     },
     "character": {
-      "en": "Character 1",
-      "ru": "Персонаж 1"
+      "en": "James Vanderboom",
+      "ru": "James Vanderboom"
     },
     "description": {
-      "en": "Description for Card 1.",
-      "ru": "Описание для Карты 1."
+      "en": "James Vanderboom is represented on the card 'The Fool'.",
+      "ru": "На карте «The Fool» изображён James Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 1.",
-      "ru": "Прямое значение для Карты 1."
+      "en": "Upright meaning of The Fool.",
+      "ru": "Прямое значение карты «The Fool»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 1.",
-      "ru": "Перевернутое значение для Карты 1."
+      "en": "Reversed meaning of The Fool.",
+      "ru": "Перевернутое значение карты «The Fool»."
     },
     "suit": "major",
-    "image": "images/card_01.jpg"
+    "image": "images/the_fool.jpg"
   },
   {
     "title": {
-      "en": "Card 2",
-      "ru": "Карта 2"
+      "en": "The Magician",
+      "ru": "The Magician"
     },
     "character": {
-      "en": "Character 2",
-      "ru": "Персонаж 2"
+      "en": "David Eilander / Mr. Rabbit",
+      "ru": "David Eilander / Mr. Rabbit"
     },
     "description": {
-      "en": "Description for Card 2.",
-      "ru": "Описание для Карты 2."
+      "en": "David Eilander / Mr. Rabbit is represented on the card 'The Magician'.",
+      "ru": "На карте «The Magician» изображён David Eilander / Mr. Rabbit."
     },
     "upright": {
-      "en": "Upright meaning for Card 2.",
-      "ru": "Прямое значение для Карты 2."
+      "en": "Upright meaning of The Magician.",
+      "ru": "Прямое значение карты «The Magician»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 2.",
-      "ru": "Перевернутое значение для Карты 2."
+      "en": "Reversed meaning of The Magician.",
+      "ru": "Перевернутое значение карты «The Magician»."
     },
     "suit": "major",
-    "image": "images/card_02.jpg"
+    "image": "images/the_magician.jpg"
   },
   {
     "title": {
-      "en": "Card 3",
-      "ru": "Карта 3"
+      "en": "The High Priestess",
+      "ru": "The High Priestess"
     },
     "character": {
-      "en": "Character 3",
-      "ru": "Персонаж 3"
+      "en": "Ida Vanderboom",
+      "ru": "Ida Vanderboom"
     },
     "description": {
-      "en": "Description for Card 3.",
-      "ru": "Описание для Карты 3."
+      "en": "Ida Vanderboom is represented on the card 'The High Priestess'.",
+      "ru": "На карте «The High Priestess» изображён Ida Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 3.",
-      "ru": "Прямое значение для Карты 3."
+      "en": "Upright meaning of The High Priestess.",
+      "ru": "Прямое значение карты «The High Priestess»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 3.",
-      "ru": "Перевернутое значение для Карты 3."
+      "en": "Reversed meaning of The High Priestess.",
+      "ru": "Перевернутое значение карты «The High Priestess»."
     },
     "suit": "major",
-    "image": "images/card_03.jpg"
+    "image": "images/the_high_priestess.jpg"
   },
   {
     "title": {
-      "en": "Card 4",
-      "ru": "Карта 4"
+      "en": "The Empress",
+      "ru": "The Empress"
     },
     "character": {
-      "en": "Character 4",
-      "ru": "Персонаж 4"
+      "en": "Rose Vanderboom",
+      "ru": "Rose Vanderboom"
     },
     "description": {
-      "en": "Description for Card 4.",
-      "ru": "Описание для Карты 4."
+      "en": "Rose Vanderboom is represented on the card 'The Empress'.",
+      "ru": "На карте «The Empress» изображён Rose Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 4.",
-      "ru": "Прямое значение для Карты 4."
+      "en": "Upright meaning of The Empress.",
+      "ru": "Прямое значение карты «The Empress»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 4.",
-      "ru": "Перевернутое значение для Карты 4."
+      "en": "Reversed meaning of The Empress.",
+      "ru": "Перевернутое значение карты «The Empress»."
     },
     "suit": "major",
-    "image": "images/card_04.jpg"
+    "image": "images/the_empress.jpg"
   },
   {
     "title": {
-      "en": "Card 5",
-      "ru": "Карта 5"
+      "en": "The Emperor",
+      "ru": "The Emperor"
     },
     "character": {
-      "en": "Character 5",
-      "ru": "Персонаж 5"
+      "en": "Jakob Eilander / Mr. Owl",
+      "ru": "Jakob Eilander / Mr. Owl"
     },
     "description": {
-      "en": "Description for Card 5.",
-      "ru": "Описание для Карты 5."
+      "en": "Jakob Eilander / Mr. Owl is represented on the card 'The Emperor'.",
+      "ru": "На карте «The Emperor» изображён Jakob Eilander / Mr. Owl."
     },
     "upright": {
-      "en": "Upright meaning for Card 5.",
-      "ru": "Прямое значение для Карты 5."
+      "en": "Upright meaning of The Emperor.",
+      "ru": "Прямое значение карты «The Emperor»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 5.",
-      "ru": "Перевернутое значение для Карты 5."
+      "en": "Reversed meaning of The Emperor.",
+      "ru": "Перевернутое значение карты «The Emperor»."
     },
     "suit": "major",
-    "image": "images/card_05.jpg"
+    "image": "images/the_emperor.jpg"
   },
   {
     "title": {
-      "en": "Card 6",
-      "ru": "Карта 6"
+      "en": "The Hierophant",
+      "ru": "The Hierophant"
     },
     "character": {
-      "en": "Character 6",
-      "ru": "Персонаж 6"
+      "en": "Nicholas Eilander / Mr. Deer",
+      "ru": "Nicholas Eilander / Mr. Deer"
     },
     "description": {
-      "en": "Description for Card 6.",
-      "ru": "Описание для Карты 6."
+      "en": "Nicholas Eilander / Mr. Deer is represented on the card 'The Hierophant'.",
+      "ru": "На карте «The Hierophant» изображён Nicholas Eilander / Mr. Deer."
     },
     "upright": {
-      "en": "Upright meaning for Card 6.",
-      "ru": "Прямое значение для Карты 6."
+      "en": "Upright meaning of The Hierophant.",
+      "ru": "Прямое значение карты «The Hierophant»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 6.",
-      "ru": "Перевернутое значение для Карты 6."
+      "en": "Reversed meaning of The Hierophant.",
+      "ru": "Перевернутое значение карты «The Hierophant»."
     },
     "suit": "major",
-    "image": "images/card_06.jpg"
+    "image": "images/the_hierophant.jpg"
   },
   {
     "title": {
-      "en": "Card 7",
-      "ru": "Карта 7"
+      "en": "The Lovers",
+      "ru": "The Lovers"
     },
     "character": {
-      "en": "Character 7",
-      "ru": "Персонаж 7"
+      "en": "Mary Vanderboom",
+      "ru": "Mary Vanderboom"
     },
     "description": {
-      "en": "Description for Card 7.",
-      "ru": "Описание для Карты 7."
+      "en": "Mary Vanderboom is represented on the card 'The Lovers'.",
+      "ru": "На карте «The Lovers» изображён Mary Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 7.",
-      "ru": "Прямое значение для Карты 7."
+      "en": "Upright meaning of The Lovers.",
+      "ru": "Прямое значение карты «The Lovers»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 7.",
-      "ru": "Перевернутое значение для Карты 7."
+      "en": "Reversed meaning of The Lovers.",
+      "ru": "Перевернутое значение карты «The Lovers»."
     },
     "suit": "major",
-    "image": "images/card_07.jpg"
+    "image": "images/the_lovers.jpg"
   },
   {
     "title": {
-      "en": "Card 8",
-      "ru": "Карта 8"
+      "en": "The Chariot",
+      "ru": "The Chariot"
     },
     "character": {
-      "en": "Character 8",
-      "ru": "Персонаж 8"
+      "en": "Dale Vandermeer",
+      "ru": "Dale Vandermeer"
     },
     "description": {
-      "en": "Description for Card 8.",
-      "ru": "Описание для Карты 8."
+      "en": "Dale Vandermeer is represented on the card 'The Chariot'.",
+      "ru": "На карте «The Chariot» изображён Dale Vandermeer."
     },
     "upright": {
-      "en": "Upright meaning for Card 8.",
-      "ru": "Прямое значение для Карты 8."
+      "en": "Upright meaning of The Chariot.",
+      "ru": "Прямое значение карты «The Chariot»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 8.",
-      "ru": "Перевернутое значение для Карты 8."
+      "en": "Reversed meaning of The Chariot.",
+      "ru": "Перевернутое значение карты «The Chariot»."
     },
     "suit": "major",
-    "image": "images/card_08.jpg"
+    "image": "images/the_chariot.jpg"
   },
   {
     "title": {
-      "en": "Card 9",
-      "ru": "Карта 9"
+      "en": "Strength",
+      "ru": "Strength"
     },
     "character": {
-      "en": "Character 9",
-      "ru": "Персонаж 9"
+      "en": "Margaret Eilander / Mrs. Pigeon",
+      "ru": "Margaret Eilander / Mrs. Pigeon"
     },
     "description": {
-      "en": "Description for Card 9.",
-      "ru": "Описание для Карты 9."
+      "en": "Margaret Eilander / Mrs. Pigeon is represented on the card 'Strength'.",
+      "ru": "На карте «Strength» изображён Margaret Eilander / Mrs. Pigeon."
     },
     "upright": {
-      "en": "Upright meaning for Card 9.",
-      "ru": "Прямое значение для Карты 9."
+      "en": "Upright meaning of Strength.",
+      "ru": "Прямое значение карты «Strength»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 9.",
-      "ru": "Перевернутое значение для Карты 9."
+      "en": "Reversed meaning of Strength.",
+      "ru": "Перевернутое значение карты «Strength»."
     },
     "suit": "major",
-    "image": "images/card_09.jpg"
+    "image": "images/strength.jpg"
   },
   {
     "title": {
-      "en": "Card 10",
-      "ru": "Карта 10"
+      "en": "The Hermit",
+      "ru": "The Hermit"
     },
     "character": {
-      "en": "Character 10",
-      "ru": "Персонаж 10"
+      "en": "Frank Vanderboom",
+      "ru": "Frank Vanderboom"
     },
     "description": {
-      "en": "Description for Card 10.",
-      "ru": "Описание для Карты 10."
+      "en": "Frank Vanderboom is represented on the card 'The Hermit'.",
+      "ru": "На карте «The Hermit» изображён Frank Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 10.",
-      "ru": "Прямое значение для Карты 10."
+      "en": "Upright meaning of The Hermit.",
+      "ru": "Прямое значение карты «The Hermit»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 10.",
-      "ru": "Перевернутое значение для Карты 10."
+      "en": "Reversed meaning of The Hermit.",
+      "ru": "Перевернутое значение карты «The Hermit»."
     },
     "suit": "major",
-    "image": "images/card_10.jpg"
+    "image": "images/the_hermit.jpg"
   },
   {
     "title": {
-      "en": "Card 11",
-      "ru": "Карта 11"
+      "en": "Wheel of Fortune",
+      "ru": "Wheel of Fortune"
     },
     "character": {
-      "en": "Character 11",
-      "ru": "Персонаж 11"
+      "en": "Samuel Vanderboom",
+      "ru": "Samuel Vanderboom"
     },
     "description": {
-      "en": "Description for Card 11.",
-      "ru": "Описание для Карты 11."
+      "en": "Samuel Vanderboom is represented on the card 'Wheel of Fortune'.",
+      "ru": "На карте «Wheel of Fortune» изображён Samuel Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 11.",
-      "ru": "Прямое значение для Карты 11."
+      "en": "Upright meaning of Wheel of Fortune.",
+      "ru": "Прямое значение карты «Wheel of Fortune»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 11.",
-      "ru": "Перевернутое значение для Карты 11."
+      "en": "Reversed meaning of Wheel of Fortune.",
+      "ru": "Перевернутое значение карты «Wheel of Fortune»."
     },
     "suit": "major",
-    "image": "images/card_11.jpg"
+    "image": "images/wheel_of_fortune.jpg"
   },
   {
     "title": {
-      "en": "Card 12",
-      "ru": "Карта 12"
+      "en": "Justice",
+      "ru": "Justice"
     },
     "character": {
-      "en": "Character 12",
-      "ru": "Персонаж 12"
+      "en": "Elizabeth Eilander / Ms. Pheasant",
+      "ru": "Elizabeth Eilander / Ms. Pheasant"
     },
     "description": {
-      "en": "Description for Card 12.",
-      "ru": "Описание для Карты 12."
+      "en": "Elizabeth Eilander / Ms. Pheasant is represented on the card 'Justice'.",
+      "ru": "На карте «Justice» изображён Elizabeth Eilander / Ms. Pheasant."
     },
     "upright": {
-      "en": "Upright meaning for Card 12.",
-      "ru": "Прямое значение для Карты 12."
+      "en": "Upright meaning of Justice.",
+      "ru": "Прямое значение карты «Justice»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 12.",
-      "ru": "Перевернутое значение для Карты 12."
+      "en": "Reversed meaning of Justice.",
+      "ru": "Перевернутое значение карты «Justice»."
     },
     "suit": "major",
-    "image": "images/card_12.jpg"
+    "image": "images/justice.jpg"
   },
   {
     "title": {
-      "en": "Card 13",
-      "ru": "Карта 13"
+      "en": "The Hanged Man",
+      "ru": "The Hanged Man"
     },
     "character": {
-      "en": "Character 13",
-      "ru": "Персонаж 13"
+      "en": "Emma Vanderboom",
+      "ru": "Emma Vanderboom"
     },
     "description": {
-      "en": "Description for Card 13.",
-      "ru": "Описание для Карты 13."
+      "en": "Emma Vanderboom is represented on the card 'The Hanged Man'.",
+      "ru": "На карте «The Hanged Man» изображён Emma Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 13.",
-      "ru": "Прямое значение для Карты 13."
+      "en": "Upright meaning of The Hanged Man.",
+      "ru": "Прямое значение карты «The Hanged Man»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 13.",
-      "ru": "Перевернутое значение для Карты 13."
+      "en": "Reversed meaning of The Hanged Man.",
+      "ru": "Перевернутое значение карты «The Hanged Man»."
     },
     "suit": "major",
-    "image": "images/card_13.jpg"
+    "image": "images/the_hanged_man.jpg"
   },
   {
     "title": {
-      "en": "Card 14",
-      "ru": "Карта 14"
+      "en": "Death",
+      "ru": "Death"
     },
     "character": {
-      "en": "Character 14",
-      "ru": "Персонаж 14"
+      "en": "Leonard Vanderboom",
+      "ru": "Leonard Vanderboom"
     },
     "description": {
-      "en": "Description for Card 14.",
-      "ru": "Описание для Карты 14."
+      "en": "Leonard Vanderboom is represented on the card 'Death'.",
+      "ru": "На карте «Death» изображён Leonard Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 14.",
-      "ru": "Прямое значение для Карты 14."
+      "en": "Upright meaning of Death.",
+      "ru": "Прямое значение карты «Death»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 14.",
-      "ru": "Перевернутое значение для Карты 14."
+      "en": "Reversed meaning of Death.",
+      "ru": "Перевернутое значение карты «Death»."
     },
     "suit": "major",
-    "image": "images/card_14.jpg"
+    "image": "images/death.jpg"
   },
   {
     "title": {
-      "en": "Card 15",
-      "ru": "Карта 15"
+      "en": "Temperance",
+      "ru": "Temperance"
     },
     "character": {
-      "en": "Character 15",
-      "ru": "Персонаж 15"
+      "en": "Gerard Eilander / Mr. Boar",
+      "ru": "Gerard Eilander / Mr. Boar"
     },
     "description": {
-      "en": "Description for Card 15.",
-      "ru": "Описание для Карты 15."
+      "en": "Gerard Eilander / Mr. Boar is represented on the card 'Temperance'.",
+      "ru": "На карте «Temperance» изображён Gerard Eilander / Mr. Boar."
     },
     "upright": {
-      "en": "Upright meaning for Card 15.",
-      "ru": "Прямое значение для Карты 15."
+      "en": "Upright meaning of Temperance.",
+      "ru": "Прямое значение карты «Temperance»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 15.",
-      "ru": "Перевернутое значение для Карты 15."
+      "en": "Reversed meaning of Temperance.",
+      "ru": "Перевернутое значение карты «Temperance»."
     },
     "suit": "major",
-    "image": "images/card_15.jpg"
+    "image": "images/temperance.jpg"
   },
   {
     "title": {
-      "en": "Card 16",
-      "ru": "Карта 16"
+      "en": "The Devil",
+      "ru": "The Devil"
     },
     "character": {
-      "en": "Character 16",
-      "ru": "Персонаж 16"
+      "en": "Albert Vanderboom",
+      "ru": "Albert Vanderboom"
     },
     "description": {
-      "en": "Description for Card 16.",
-      "ru": "Описание для Карты 16."
+      "en": "Albert Vanderboom is represented on the card 'The Devil'.",
+      "ru": "На карте «The Devil» изображён Albert Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 16.",
-      "ru": "Прямое значение для Карты 16."
+      "en": "Upright meaning of The Devil.",
+      "ru": "Прямое значение карты «The Devil»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 16.",
-      "ru": "Перевернутое значение для Карты 16."
+      "en": "Reversed meaning of The Devil.",
+      "ru": "Перевернутое значение карты «The Devil»."
     },
     "suit": "major",
-    "image": "images/card_16.jpg"
+    "image": "images/the_devil.jpg"
   },
   {
     "title": {
-      "en": "Card 17",
-      "ru": "Карта 17"
+      "en": "The Tower",
+      "ru": "The Tower"
     },
     "character": {
-      "en": "Character 17",
-      "ru": "Персонаж 17"
+      "en": "Harvey",
+      "ru": "Harvey"
     },
     "description": {
-      "en": "Description for Card 17.",
-      "ru": "Описание для Карты 17."
+      "en": "Harvey is represented on the card 'The Tower'.",
+      "ru": "На карте «The Tower» изображён Harvey."
     },
     "upright": {
-      "en": "Upright meaning for Card 17.",
-      "ru": "Прямое значение для Карты 17."
+      "en": "Upright meaning of The Tower.",
+      "ru": "Прямое значение карты «The Tower»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 17.",
-      "ru": "Перевернутое значение для Карты 17."
+      "en": "Reversed meaning of The Tower.",
+      "ru": "Перевернутое значение карты «The Tower»."
     },
     "suit": "major",
-    "image": "images/card_17.jpg"
+    "image": "images/the_tower.jpg"
   },
   {
     "title": {
-      "en": "Card 18",
-      "ru": "Карта 18"
+      "en": "The Star",
+      "ru": "The Star"
     },
     "character": {
-      "en": "Character 18",
-      "ru": "Персонаж 18"
+      "en": "Vincent Van Gogh",
+      "ru": "Vincent Van Gogh"
     },
     "description": {
-      "en": "Description for Card 18.",
-      "ru": "Описание для Карты 18."
+      "en": "Vincent Van Gogh is represented on the card 'The Star'.",
+      "ru": "На карте «The Star» изображён Vincent Van Gogh."
     },
     "upright": {
-      "en": "Upright meaning for Card 18.",
-      "ru": "Прямое значение для Карты 18."
+      "en": "Upright meaning of The Star.",
+      "ru": "Прямое значение карты «The Star»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 18.",
-      "ru": "Перевернутое значение для Карты 18."
+      "en": "Reversed meaning of The Star.",
+      "ru": "Перевернутое значение карты «The Star»."
     },
     "suit": "major",
-    "image": "images/card_18.jpg"
+    "image": "images/the_star.jpg"
   },
   {
     "title": {
-      "en": "Card 19",
-      "ru": "Карта 19"
+      "en": "The Moon",
+      "ru": "The Moon"
     },
     "character": {
-      "en": "Character 19",
-      "ru": "Персонаж 19"
+      "en": "Caroline Eilander",
+      "ru": "Caroline Eilander"
     },
     "description": {
-      "en": "Description for Card 19.",
-      "ru": "Описание для Карты 19."
+      "en": "Caroline Eilander is represented on the card 'The Moon'.",
+      "ru": "На карте «The Moon» изображён Caroline Eilander."
     },
     "upright": {
-      "en": "Upright meaning for Card 19.",
-      "ru": "Прямое значение для Карты 19."
+      "en": "Upright meaning of The Moon.",
+      "ru": "Прямое значение карты «The Moon»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 19.",
-      "ru": "Перевернутое значение для Карты 19."
+      "en": "Reversed meaning of The Moon.",
+      "ru": "Перевернутое значение карты «The Moon»."
     },
     "suit": "major",
-    "image": "images/card_19.jpg"
+    "image": "images/the_moon.jpg"
   },
   {
     "title": {
-      "en": "Card 20",
-      "ru": "Карта 20"
+      "en": "The Sun",
+      "ru": "The Sun"
     },
     "character": {
-      "en": "Character 20",
-      "ru": "Персонаж 20"
+      "en": "Robert Hill",
+      "ru": "Robert Hill"
     },
     "description": {
-      "en": "Description for Card 20.",
-      "ru": "Описание для Карты 20."
+      "en": "Robert Hill is represented on the card 'The Sun'.",
+      "ru": "На карте «The Sun» изображён Robert Hill."
     },
     "upright": {
-      "en": "Upright meaning for Card 20.",
-      "ru": "Прямое значение для Карты 20."
+      "en": "Upright meaning of The Sun.",
+      "ru": "Прямое значение карты «The Sun»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 20.",
-      "ru": "Перевернутое значение для Карты 20."
+      "en": "Reversed meaning of The Sun.",
+      "ru": "Перевернутое значение карты «The Sun»."
     },
     "suit": "major",
-    "image": "images/card_20.jpg"
+    "image": "images/the_sun.jpg"
   },
   {
     "title": {
-      "en": "Card 21",
-      "ru": "Карта 21"
+      "en": "Judgement",
+      "ru": "Judgement"
     },
     "character": {
-      "en": "Character 21",
-      "ru": "Персонаж 21"
+      "en": "Aldous Vanderboom / Mr. Crow",
+      "ru": "Aldous Vanderboom / Mr. Crow"
     },
     "description": {
-      "en": "Description for Card 21.",
-      "ru": "Описание для Карты 21."
+      "en": "Aldous Vanderboom / Mr. Crow is represented on the card 'Judgement'.",
+      "ru": "На карте «Judgement» изображён Aldous Vanderboom / Mr. Crow."
     },
     "upright": {
-      "en": "Upright meaning for Card 21.",
-      "ru": "Прямое значение для Карты 21."
+      "en": "Upright meaning of Judgement.",
+      "ru": "Прямое значение карты «Judgement»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 21.",
-      "ru": "Перевернутое значение для Карты 21."
+      "en": "Reversed meaning of Judgement.",
+      "ru": "Перевернутое значение карты «Judgement»."
     },
     "suit": "major",
-    "image": "images/card_21.jpg"
+    "image": "images/judgement.jpg"
   },
   {
     "title": {
-      "en": "Card 22",
-      "ru": "Карта 22"
+      "en": "The World",
+      "ru": "The World"
     },
     "character": {
-      "en": "Character 22",
-      "ru": "Персонаж 22"
+      "en": "William / Laura Vanderboom",
+      "ru": "William / Laura Vanderboom"
     },
     "description": {
-      "en": "Description for Card 22.",
-      "ru": "Описание для Карты 22."
+      "en": "William / Laura Vanderboom is represented on the card 'The World'.",
+      "ru": "На карте «The World» изображён William / Laura Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 22.",
-      "ru": "Прямое значение для Карты 22."
+      "en": "Upright meaning of The World.",
+      "ru": "Прямое значение карты «The World»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 22.",
-      "ru": "Перевернутое значение для Карты 22."
+      "en": "Reversed meaning of The World.",
+      "ru": "Перевернутое значение карты «The World»."
     },
     "suit": "major",
-    "image": "images/card_22.jpg"
+    "image": "images/the_world.jpg"
   },
   {
     "title": {
-      "en": "Card 23",
-      "ru": "Карта 23"
+      "en": "Ace of Wands",
+      "ru": "Ace of Wands"
     },
     "character": {
-      "en": "Character 23",
-      "ru": "Персонаж 23"
+      "en": "молодой William Vanderboom",
+      "ru": "молодой William Vanderboom"
     },
     "description": {
-      "en": "Description for Card 23.",
-      "ru": "Описание для Карты 23."
+      "en": "молодой William Vanderboom is represented on the card 'Ace of Wands'.",
+      "ru": "На карте «Ace of Wands» изображён молодой William Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 23.",
-      "ru": "Прямое значение для Карты 23."
+      "en": "Upright meaning of Ace of Wands.",
+      "ru": "Прямое значение карты «Ace of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 23.",
-      "ru": "Перевернутое значение для Карты 23."
+      "en": "Reversed meaning of Ace of Wands.",
+      "ru": "Перевернутое значение карты «Ace of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_23.jpg"
+    "image": "images/ace_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 24",
-      "ru": "Карта 24"
+      "en": "Two of Wands",
+      "ru": "Two of Wands"
     },
     "character": {
-      "en": "Character 24",
-      "ru": "Персонаж 24"
+      "en": "молодой Samuel Vanderboom",
+      "ru": "молодой Samuel Vanderboom"
     },
     "description": {
-      "en": "Description for Card 24.",
-      "ru": "Описание для Карты 24."
+      "en": "молодой Samuel Vanderboom is represented on the card 'Two of Wands'.",
+      "ru": "На карте «Two of Wands» изображён молодой Samuel Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 24.",
-      "ru": "Прямое значение для Карты 24."
+      "en": "Upright meaning of Two of Wands.",
+      "ru": "Прямое значение карты «Two of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 24.",
-      "ru": "Перевернутое значение для Карты 24."
+      "en": "Reversed meaning of Two of Wands.",
+      "ru": "Перевернутое значение карты «Two of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_24.jpg"
+    "image": "images/two_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 25",
-      "ru": "Карта 25"
+      "en": "Three of Wands",
+      "ru": "Three of Wands"
     },
     "character": {
-      "en": "Character 25",
-      "ru": "Персонаж 25"
+      "en": "Dale Vandermeer (начало расследования)",
+      "ru": "Dale Vandermeer (начало расследования)"
     },
     "description": {
-      "en": "Description for Card 25.",
-      "ru": "Описание для Карты 25."
+      "en": "Dale Vandermeer (начало расследования) is represented on the card 'Three of Wands'.",
+      "ru": "На карте «Three of Wands» изображён Dale Vandermeer (начало расследования)."
     },
     "upright": {
-      "en": "Upright meaning for Card 25.",
-      "ru": "Прямое значение для Карты 25."
+      "en": "Upright meaning of Three of Wands.",
+      "ru": "Прямое значение карты «Three of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 25.",
-      "ru": "Перевернутое значение для Карты 25."
+      "en": "Reversed meaning of Three of Wands.",
+      "ru": "Перевернутое значение карты «Three of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_25.jpg"
+    "image": "images/three_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 26",
-      "ru": "Карта 26"
+      "en": "Four of Wands",
+      "ru": "Four of Wands"
     },
     "character": {
-      "en": "Character 26",
-      "ru": "Персонаж 26"
+      "en": "Mary Vanderboom (невеста)",
+      "ru": "Mary Vanderboom (невеста)"
     },
     "description": {
-      "en": "Description for Card 26.",
-      "ru": "Описание для Карты 26."
+      "en": "Mary Vanderboom (невеста) is represented on the card 'Four of Wands'.",
+      "ru": "На карте «Four of Wands» изображён Mary Vanderboom (невеста)."
     },
     "upright": {
-      "en": "Upright meaning for Card 26.",
-      "ru": "Прямое значение для Карты 26."
+      "en": "Upright meaning of Four of Wands.",
+      "ru": "Прямое значение карты «Four of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 26.",
-      "ru": "Перевернутое значение для Карты 26."
+      "en": "Reversed meaning of Four of Wands.",
+      "ru": "Перевернутое значение карты «Four of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_26.jpg"
+    "image": "images/four_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 27",
-      "ru": "Карта 27"
+      "en": "Five of Wands",
+      "ru": "Five of Wands"
     },
     "character": {
-      "en": "Character 27",
-      "ru": "Персонаж 27"
+      "en": "молодой Albert Vanderboom",
+      "ru": "молодой Albert Vanderboom"
     },
     "description": {
-      "en": "Description for Card 27.",
-      "ru": "Описание для Карты 27."
+      "en": "молодой Albert Vanderboom is represented on the card 'Five of Wands'.",
+      "ru": "На карте «Five of Wands» изображён молодой Albert Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 27.",
-      "ru": "Прямое значение для Карты 27."
+      "en": "Upright meaning of Five of Wands.",
+      "ru": "Прямое значение карты «Five of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 27.",
-      "ru": "Перевернутое значение для Карты 27."
+      "en": "Reversed meaning of Five of Wands.",
+      "ru": "Перевернутое значение карты «Five of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_27.jpg"
+    "image": "images/five_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 28",
-      "ru": "Карта 28"
+      "en": "Six of Wands",
+      "ru": "Six of Wands"
     },
     "character": {
-      "en": "Character 28",
-      "ru": "Персонаж 28"
+      "en": "Jakob Eilander (взрослый)",
+      "ru": "Jakob Eilander (взрослый)"
     },
     "description": {
-      "en": "Description for Card 28.",
-      "ru": "Описание для Карты 28."
+      "en": "Jakob Eilander (взрослый) is represented on the card 'Six of Wands'.",
+      "ru": "На карте «Six of Wands» изображён Jakob Eilander (взрослый)."
     },
     "upright": {
-      "en": "Upright meaning for Card 28.",
-      "ru": "Прямое значение для Карты 28."
+      "en": "Upright meaning of Six of Wands.",
+      "ru": "Прямое значение карты «Six of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 28.",
-      "ru": "Перевернутое значение для Карты 28."
+      "en": "Reversed meaning of Six of Wands.",
+      "ru": "Перевернутое значение карты «Six of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_28.jpg"
+    "image": "images/six_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 29",
-      "ru": "Карта 29"
+      "en": "Seven of Wands",
+      "ru": "Seven of Wands"
     },
     "character": {
-      "en": "Character 29",
-      "ru": "Персонаж 29"
+      "en": "Frank Vanderboom (врач)",
+      "ru": "Frank Vanderboom (врач)"
     },
     "description": {
-      "en": "Description for Card 29.",
-      "ru": "Описание для Карты 29."
+      "en": "Frank Vanderboom (врач) is represented on the card 'Seven of Wands'.",
+      "ru": "На карте «Seven of Wands» изображён Frank Vanderboom (врач)."
     },
     "upright": {
-      "en": "Upright meaning for Card 29.",
-      "ru": "Прямое значение для Карты 29."
+      "en": "Upright meaning of Seven of Wands.",
+      "ru": "Прямое значение карты «Seven of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 29.",
-      "ru": "Перевернутое значение для Карты 29."
+      "en": "Reversed meaning of Seven of Wands.",
+      "ru": "Перевернутое значение карты «Seven of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_29.jpg"
+    "image": "images/seven_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 30",
-      "ru": "Карта 30"
+      "en": "Eight of Wands",
+      "ru": "Eight of Wands"
     },
     "character": {
-      "en": "Character 30",
-      "ru": "Персонаж 30"
+      "en": "Собака",
+      "ru": "Собака"
     },
     "description": {
-      "en": "Description for Card 30.",
-      "ru": "Описание для Карты 30."
+      "en": "Собака is represented on the card 'Eight of Wands'.",
+      "ru": "На карте «Eight of Wands» изображён Собака."
     },
     "upright": {
-      "en": "Upright meaning for Card 30.",
-      "ru": "Прямое значение для Карты 30."
+      "en": "Upright meaning of Eight of Wands.",
+      "ru": "Прямое значение карты «Eight of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 30.",
-      "ru": "Перевернутое значение для Карты 30."
+      "en": "Reversed meaning of Eight of Wands.",
+      "ru": "Перевернутое значение карты «Eight of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_30.jpg"
+    "image": "images/eight_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 31",
-      "ru": "Карта 31"
+      "en": "Nine of Wands",
+      "ru": "Nine of Wands"
     },
     "character": {
-      "en": "Character 31",
-      "ru": "Персонаж 31"
+      "en": "старый Leonard Vanderboom",
+      "ru": "старый Leonard Vanderboom"
     },
     "description": {
-      "en": "Description for Card 31.",
-      "ru": "Описание для Карты 31."
+      "en": "старый Leonard Vanderboom is represented on the card 'Nine of Wands'.",
+      "ru": "На карте «Nine of Wands» изображён старый Leonard Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 31.",
-      "ru": "Прямое значение для Карты 31."
+      "en": "Upright meaning of Nine of Wands.",
+      "ru": "Прямое значение карты «Nine of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 31.",
-      "ru": "Перевернутое значение для Карты 31."
+      "en": "Reversed meaning of Nine of Wands.",
+      "ru": "Перевернутое значение карты «Nine of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_31.jpg"
+    "image": "images/nine_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 32",
-      "ru": "Карта 32"
+      "en": "Ten of Wands",
+      "ru": "Ten of Wands"
     },
     "character": {
-      "en": "Character 32",
-      "ru": "Персонаж 32"
+      "en": "Отец из Birthday",
+      "ru": "Отец из Birthday"
     },
     "description": {
-      "en": "Description for Card 32.",
-      "ru": "Описание для Карты 32."
+      "en": "Отец из Birthday is represented on the card 'Ten of Wands'.",
+      "ru": "На карте «Ten of Wands» изображён Отец из Birthday."
     },
     "upright": {
-      "en": "Upright meaning for Card 32.",
-      "ru": "Прямое значение для Карты 32."
+      "en": "Upright meaning of Ten of Wands.",
+      "ru": "Прямое значение карты «Ten of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 32.",
-      "ru": "Перевернутое значение для Карты 32."
+      "en": "Reversed meaning of Ten of Wands.",
+      "ru": "Перевернутое значение карты «Ten of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_32.jpg"
+    "image": "images/ten_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 33",
-      "ru": "Карта 33"
+      "en": "Page of Wands",
+      "ru": "Page of Wands"
     },
     "character": {
-      "en": "Character 33",
-      "ru": "Персонаж 33"
+      "en": "ребенок Caroline Eilander",
+      "ru": "ребенок Caroline Eilander"
     },
     "description": {
-      "en": "Description for Card 33.",
-      "ru": "Описание для Карты 33."
+      "en": "ребенок Caroline Eilander is represented on the card 'Page of Wands'.",
+      "ru": "На карте «Page of Wands» изображён ребенок Caroline Eilander."
     },
     "upright": {
-      "en": "Upright meaning for Card 33.",
-      "ru": "Прямое значение для Карты 33."
+      "en": "Upright meaning of Page of Wands.",
+      "ru": "Прямое значение карты «Page of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 33.",
-      "ru": "Перевернутое значение для Карты 33."
+      "en": "Reversed meaning of Page of Wands.",
+      "ru": "Перевернутое значение карты «Page of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_33.jpg"
+    "image": "images/page_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 34",
-      "ru": "Карта 34"
+      "en": "Knight of Wands",
+      "ru": "Knight of Wands"
     },
     "character": {
-      "en": "Character 34",
-      "ru": "Персонаж 34"
+      "en": "David Eilander (до трансформации)",
+      "ru": "David Eilander (до трансформации)"
     },
     "description": {
-      "en": "Description for Card 34.",
-      "ru": "Описание для Карты 34."
+      "en": "David Eilander (до трансформации) is represented on the card 'Knight of Wands'.",
+      "ru": "На карте «Knight of Wands» изображён David Eilander (до трансформации)."
     },
     "upright": {
-      "en": "Upright meaning for Card 34.",
-      "ru": "Прямое значение для Карты 34."
+      "en": "Upright meaning of Knight of Wands.",
+      "ru": "Прямое значение карты «Knight of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 34.",
-      "ru": "Перевернутое значение для Карты 34."
+      "en": "Reversed meaning of Knight of Wands.",
+      "ru": "Перевернутое значение карты «Knight of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_34.jpg"
+    "image": "images/knight_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 35",
-      "ru": "Карта 35"
+      "en": "Queen of Wands",
+      "ru": "Queen of Wands"
     },
     "character": {
-      "en": "Character 35",
-      "ru": "Персонаж 35"
+      "en": "молодая Margaret Eilander",
+      "ru": "молодая Margaret Eilander"
     },
     "description": {
-      "en": "Description for Card 35.",
-      "ru": "Описание для Карты 35."
+      "en": "молодая Margaret Eilander is represented on the card 'Queen of Wands'.",
+      "ru": "На карте «Queen of Wands» изображён молодая Margaret Eilander."
     },
     "upright": {
-      "en": "Upright meaning for Card 35.",
-      "ru": "Прямое значение для Карты 35."
+      "en": "Upright meaning of Queen of Wands.",
+      "ru": "Прямое значение карты «Queen of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 35.",
-      "ru": "Перевернутое значение для Карты 35."
+      "en": "Reversed meaning of Queen of Wands.",
+      "ru": "Перевернутое значение карты «Queen of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_35.jpg"
+    "image": "images/queen_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 36",
-      "ru": "Карта 36"
+      "en": "King of Wands",
+      "ru": "King of Wands"
     },
     "character": {
-      "en": "Character 36",
-      "ru": "Персонаж 36"
+      "en": "Harvey (как правитель разума)",
+      "ru": "Harvey (как правитель разума)"
     },
     "description": {
-      "en": "Description for Card 36.",
-      "ru": "Описание для Карты 36."
+      "en": "Harvey (как правитель разума) is represented on the card 'King of Wands'.",
+      "ru": "На карте «King of Wands» изображён Harvey (как правитель разума)."
     },
     "upright": {
-      "en": "Upright meaning for Card 36.",
-      "ru": "Прямое значение для Карты 36."
+      "en": "Upright meaning of King of Wands.",
+      "ru": "Прямое значение карты «King of Wands»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 36.",
-      "ru": "Перевернутое значение для Карты 36."
+      "en": "Reversed meaning of King of Wands.",
+      "ru": "Перевернутое значение карты «King of Wands»."
     },
     "suit": "wands",
-    "image": "images/card_36.jpg"
+    "image": "images/king_of_wands.jpg"
   },
   {
     "title": {
-      "en": "Card 37",
-      "ru": "Карта 37"
+      "en": "Ace of Cups",
+      "ru": "Ace of Cups"
     },
     "character": {
-      "en": "Character 37",
-      "ru": "Персонаж 37"
+      "en": "Laura Vanderboom (ребёнок)",
+      "ru": "Laura Vanderboom (ребёнок)"
     },
     "description": {
-      "en": "Description for Card 37.",
-      "ru": "Описание для Карты 37."
+      "en": "Laura Vanderboom (ребёнок) is represented on the card 'Ace of Cups'.",
+      "ru": "На карте «Ace of Cups» изображён Laura Vanderboom (ребёнок)."
     },
     "upright": {
-      "en": "Upright meaning for Card 37.",
-      "ru": "Прямое значение для Карты 37."
+      "en": "Upright meaning of Ace of Cups.",
+      "ru": "Прямое значение карты «Ace of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 37.",
-      "ru": "Перевернутое значение для Карты 37."
+      "en": "Reversed meaning of Ace of Cups.",
+      "ru": "Перевернутое значение карты «Ace of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_37.jpg"
+    "image": "images/ace_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 38",
-      "ru": "Карта 38"
+      "en": "Two of Cups",
+      "ru": "Two of Cups"
     },
     "character": {
-      "en": "Character 38",
-      "ru": "Персонаж 38"
+      "en": "Emma и James",
+      "ru": "Emma и James"
     },
     "description": {
-      "en": "Description for Card 38.",
-      "ru": "Описание для Карты 38."
+      "en": "Emma и James is represented on the card 'Two of Cups'.",
+      "ru": "На карте «Two of Cups» изображён Emma и James."
     },
     "upright": {
-      "en": "Upright meaning for Card 38.",
-      "ru": "Прямое значение для Карты 38."
+      "en": "Upright meaning of Two of Cups.",
+      "ru": "Прямое значение карты «Two of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 38.",
-      "ru": "Перевернутое значение для Карты 38."
+      "en": "Reversed meaning of Two of Cups.",
+      "ru": "Перевернутое значение карты «Two of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_38.jpg"
+    "image": "images/two_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 39",
-      "ru": "Карта 39"
+      "en": "Three of Cups",
+      "ru": "Three of Cups"
     },
     "character": {
-      "en": "Character 39",
-      "ru": "Персонаж 39"
+      "en": "Rose и её дети",
+      "ru": "Rose и её дети"
     },
     "description": {
-      "en": "Description for Card 39.",
-      "ru": "Описание для Карты 39."
+      "en": "Rose и её дети is represented on the card 'Three of Cups'.",
+      "ru": "На карте «Three of Cups» изображён Rose и её дети."
     },
     "upright": {
-      "en": "Upright meaning for Card 39.",
-      "ru": "Прямое значение для Карты 39."
+      "en": "Upright meaning of Three of Cups.",
+      "ru": "Прямое значение карты «Three of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 39.",
-      "ru": "Перевернутое значение для Карты 39."
+      "en": "Reversed meaning of Three of Cups.",
+      "ru": "Перевернутое значение карты «Three of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_39.jpg"
+    "image": "images/three_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 40",
-      "ru": "Карта 40"
+      "en": "Four of Cups",
+      "ru": "Four of Cups"
     },
     "character": {
-      "en": "Character 40",
-      "ru": "Персонаж 40"
+      "en": "Samuel Vanderboom (разочарованный отец)",
+      "ru": "Samuel Vanderboom (разочарованный отец)"
     },
     "description": {
-      "en": "Description for Card 40.",
-      "ru": "Описание для Карты 40."
+      "en": "Samuel Vanderboom (разочарованный отец) is represented on the card 'Four of Cups'.",
+      "ru": "На карте «Four of Cups» изображён Samuel Vanderboom (разочарованный отец)."
     },
     "upright": {
-      "en": "Upright meaning for Card 40.",
-      "ru": "Прямое значение для Карты 40."
+      "en": "Upright meaning of Four of Cups.",
+      "ru": "Прямое значение карты «Four of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 40.",
-      "ru": "Перевернутое значение для Карты 40."
+      "en": "Reversed meaning of Four of Cups.",
+      "ru": "Перевернутое значение карты «Four of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_40.jpg"
+    "image": "images/four_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 41",
-      "ru": "Карта 41"
+      "en": "Five of Cups",
+      "ru": "Five of Cups"
     },
     "character": {
-      "en": "Character 41",
-      "ru": "Персонаж 41"
+      "en": "Mary (оплакивающая потерю)",
+      "ru": "Mary (оплакивающая потерю)"
     },
     "description": {
-      "en": "Description for Card 41.",
-      "ru": "Описание для Карты 41."
+      "en": "Mary (оплакивающая потерю) is represented on the card 'Five of Cups'.",
+      "ru": "На карте «Five of Cups» изображён Mary (оплакивающая потерю)."
     },
     "upright": {
-      "en": "Upright meaning for Card 41.",
-      "ru": "Прямое значение для Карты 41."
+      "en": "Upright meaning of Five of Cups.",
+      "ru": "Прямое значение карты «Five of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 41.",
-      "ru": "Перевернутое значение для Карты 41."
+      "en": "Reversed meaning of Five of Cups.",
+      "ru": "Перевернутое значение карты «Five of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_41.jpg"
+    "image": "images/five_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 42",
-      "ru": "Карта 42"
+      "en": "Six of Cups",
+      "ru": "Six of Cups"
     },
     "character": {
-      "en": "Character 42",
-      "ru": "Персонаж 42"
+      "en": "Laura и Frank (семейная сцена)",
+      "ru": "Laura и Frank (семейная сцена)"
     },
     "description": {
-      "en": "Description for Card 42.",
-      "ru": "Описание для Карты 42."
+      "en": "Laura и Frank (семейная сцена) is represented on the card 'Six of Cups'.",
+      "ru": "На карте «Six of Cups» изображён Laura и Frank (семейная сцена)."
     },
     "upright": {
-      "en": "Upright meaning for Card 42.",
-      "ru": "Прямое значение для Карты 42."
+      "en": "Upright meaning of Six of Cups.",
+      "ru": "Прямое значение карты «Six of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 42.",
-      "ru": "Перевернутое значение для Карты 42."
+      "en": "Reversed meaning of Six of Cups.",
+      "ru": "Перевернутое значение карты «Six of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_42.jpg"
+    "image": "images/six_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 43",
-      "ru": "Карта 43"
+      "en": "Seven of Cups",
+      "ru": "Seven of Cups"
     },
     "character": {
-      "en": "Character 43",
-      "ru": "Персонаж 43"
+      "en": "Jakob Eilander (в старости, выборы)",
+      "ru": "Jakob Eilander (в старости, выборы)"
     },
     "description": {
-      "en": "Description for Card 43.",
-      "ru": "Описание для Карты 43."
+      "en": "Jakob Eilander (в старости, выборы) is represented on the card 'Seven of Cups'.",
+      "ru": "На карте «Seven of Cups» изображён Jakob Eilander (в старости, выборы)."
     },
     "upright": {
-      "en": "Upright meaning for Card 43.",
-      "ru": "Прямое значение для Карты 43."
+      "en": "Upright meaning of Seven of Cups.",
+      "ru": "Прямое значение карты «Seven of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 43.",
-      "ru": "Перевернутое значение для Карты 43."
+      "en": "Reversed meaning of Seven of Cups.",
+      "ru": "Перевернутое значение карты «Seven of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_43.jpg"
+    "image": "images/seven_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 44",
-      "ru": "Карта 44"
+      "en": "Eight of Cups",
+      "ru": "Eight of Cups"
     },
     "character": {
-      "en": "Character 44",
-      "ru": "Персонаж 44"
+      "en": "Девочка в лодке (идущая прочь)",
+      "ru": "Девочка в лодке (идущая прочь)"
     },
     "description": {
-      "en": "Description for Card 44.",
-      "ru": "Описание для Карты 44."
+      "en": "Девочка в лодке (идущая прочь) is represented on the card 'Eight of Cups'.",
+      "ru": "На карте «Eight of Cups» изображён Девочка в лодке (идущая прочь)."
     },
     "upright": {
-      "en": "Upright meaning for Card 44.",
-      "ru": "Прямое значение для Карты 44."
+      "en": "Upright meaning of Eight of Cups.",
+      "ru": "Прямое значение карты «Eight of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 44.",
-      "ru": "Перевернутое значение для Карты 44."
+      "en": "Reversed meaning of Eight of Cups.",
+      "ru": "Перевернутое значение карты «Eight of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_44.jpg"
+    "image": "images/eight_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 45",
-      "ru": "Карта 45"
+      "en": "Nine of Cups",
+      "ru": "Nine of Cups"
     },
     "character": {
-      "en": "Character 45",
-      "ru": "Персонаж 45"
+      "en": "Leonard в комфорте",
+      "ru": "Leonard в комфорте"
     },
     "description": {
-      "en": "Description for Card 45.",
-      "ru": "Описание для Карты 45."
+      "en": "Leonard в комфорте is represented on the card 'Nine of Cups'.",
+      "ru": "На карте «Nine of Cups» изображён Leonard в комфорте."
     },
     "upright": {
-      "en": "Upright meaning for Card 45.",
-      "ru": "Прямое значение для Карты 45."
+      "en": "Upright meaning of Nine of Cups.",
+      "ru": "Прямое значение карты «Nine of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 45.",
-      "ru": "Перевернутое значение для Карты 45."
+      "en": "Reversed meaning of Nine of Cups.",
+      "ru": "Перевернутое значение карты «Nine of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_45.jpg"
+    "image": "images/nine_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 46",
-      "ru": "Карта 46"
+      "en": "Ten of Cups",
+      "ru": "Ten of Cups"
     },
     "character": {
-      "en": "Character 46",
-      "ru": "Персонаж 46"
+      "en": "Семья Vanderboom у обеда",
+      "ru": "Семья Vanderboom у обеда"
     },
     "description": {
-      "en": "Description for Card 46.",
-      "ru": "Описание для Карты 46."
+      "en": "Семья Vanderboom у обеда is represented on the card 'Ten of Cups'.",
+      "ru": "На карте «Ten of Cups» изображён Семья Vanderboom у обеда."
     },
     "upright": {
-      "en": "Upright meaning for Card 46.",
-      "ru": "Прямое значение для Карты 46."
+      "en": "Upright meaning of Ten of Cups.",
+      "ru": "Прямое значение карты «Ten of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 46.",
-      "ru": "Перевернутое значение для Карты 46."
+      "en": "Reversed meaning of Ten of Cups.",
+      "ru": "Перевернутое значение карты «Ten of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_46.jpg"
+    "image": "images/ten_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 47",
-      "ru": "Карта 47"
+      "en": "Page of Cups",
+      "ru": "Page of Cups"
     },
     "character": {
-      "en": "Character 47",
-      "ru": "Персонаж 47"
+      "en": "Юная Ida Vanderboom",
+      "ru": "Юная Ida Vanderboom"
     },
     "description": {
-      "en": "Description for Card 47.",
-      "ru": "Описание для Карты 47."
+      "en": "Юная Ida Vanderboom is represented on the card 'Page of Cups'.",
+      "ru": "На карте «Page of Cups» изображён Юная Ida Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 47.",
-      "ru": "Прямое значение для Карты 47."
+      "en": "Upright meaning of Page of Cups.",
+      "ru": "Прямое значение карты «Page of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 47.",
-      "ru": "Перевернутое значение для Карты 47."
+      "en": "Reversed meaning of Page of Cups.",
+      "ru": "Перевернутое значение карты «Page of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_47.jpg"
+    "image": "images/page_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 48",
-      "ru": "Карта 48"
+      "en": "Knight of Cups",
+      "ru": "Knight of Cups"
     },
     "character": {
-      "en": "Character 48",
-      "ru": "Персонаж 48"
+      "en": "Молодой Robert Hill",
+      "ru": "Молодой Robert Hill"
     },
     "description": {
-      "en": "Description for Card 48.",
-      "ru": "Описание для Карты 48."
+      "en": "Молодой Robert Hill is represented on the card 'Knight of Cups'.",
+      "ru": "На карте «Knight of Cups» изображён Молодой Robert Hill."
     },
     "upright": {
-      "en": "Upright meaning for Card 48.",
-      "ru": "Прямое значение для Карты 48."
+      "en": "Upright meaning of Knight of Cups.",
+      "ru": "Прямое значение карты «Knight of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 48.",
-      "ru": "Перевернутое значение для Карты 48."
+      "en": "Reversed meaning of Knight of Cups.",
+      "ru": "Перевернутое значение карты «Knight of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_48.jpg"
+    "image": "images/knight_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 49",
-      "ru": "Карта 49"
+      "en": "Queen of Cups",
+      "ru": "Queen of Cups"
     },
     "character": {
-      "en": "Character 49",
-      "ru": "Персонаж 49"
+      "en": "Emma Vanderboom",
+      "ru": "Emma Vanderboom"
     },
     "description": {
-      "en": "Description for Card 49.",
-      "ru": "Описание для Карты 49."
+      "en": "Emma Vanderboom is represented on the card 'Queen of Cups'.",
+      "ru": "На карте «Queen of Cups» изображён Emma Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 49.",
-      "ru": "Прямое значение для Карты 49."
+      "en": "Upright meaning of Queen of Cups.",
+      "ru": "Прямое значение карты «Queen of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 49.",
-      "ru": "Перевернутое значение для Карты 49."
+      "en": "Reversed meaning of Queen of Cups.",
+      "ru": "Перевернутое значение карты «Queen of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_49.jpg"
+    "image": "images/queen_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 50",
-      "ru": "Карта 50"
+      "en": "King of Cups",
+      "ru": "King of Cups"
     },
     "character": {
-      "en": "Character 50",
-      "ru": "Персонаж 50"
+      "en": "Frank (в зрелом возрасте, с дочерью)",
+      "ru": "Frank (в зрелом возрасте, с дочерью)"
     },
     "description": {
-      "en": "Description for Card 50.",
-      "ru": "Описание для Карты 50."
+      "en": "Frank (в зрелом возрасте, с дочерью) is represented on the card 'King of Cups'.",
+      "ru": "На карте «King of Cups» изображён Frank (в зрелом возрасте, с дочерью)."
     },
     "upright": {
-      "en": "Upright meaning for Card 50.",
-      "ru": "Прямое значение для Карты 50."
+      "en": "Upright meaning of King of Cups.",
+      "ru": "Прямое значение карты «King of Cups»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 50.",
-      "ru": "Перевернутое значение для Карты 50."
+      "en": "Reversed meaning of King of Cups.",
+      "ru": "Перевернутое значение карты «King of Cups»."
     },
     "suit": "cups",
-    "image": "images/card_50.jpg"
+    "image": "images/king_of_cups.jpg"
   },
   {
     "title": {
-      "en": "Card 51",
-      "ru": "Карта 51"
+      "en": "Ace of Swords",
+      "ru": "Ace of Swords"
     },
     "character": {
-      "en": "Character 51",
-      "ru": "Персонаж 51"
+      "en": "William (момент озарения)",
+      "ru": "William (момент озарения)"
     },
     "description": {
-      "en": "Description for Card 51.",
-      "ru": "Описание для Карты 51."
+      "en": "William (момент озарения) is represented on the card 'Ace of Swords'.",
+      "ru": "На карте «Ace of Swords» изображён William (момент озарения)."
     },
     "upright": {
-      "en": "Upright meaning for Card 51.",
-      "ru": "Прямое значение для Карты 51."
+      "en": "Upright meaning of Ace of Swords.",
+      "ru": "Прямое значение карты «Ace of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 51.",
-      "ru": "Перевернутое значение для Карты 51."
+      "en": "Reversed meaning of Ace of Swords.",
+      "ru": "Перевернутое значение карты «Ace of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_51.jpg"
+    "image": "images/ace_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 52",
-      "ru": "Карта 52"
+      "en": "Two of Swords",
+      "ru": "Two of Swords"
     },
     "character": {
-      "en": "Character 52",
-      "ru": "Персонаж 52"
+      "en": "Jakob (закрытые глаза)",
+      "ru": "Jakob (закрытые глаза)"
     },
     "description": {
-      "en": "Description for Card 52.",
-      "ru": "Описание для Карты 52."
+      "en": "Jakob (закрытые глаза) is represented on the card 'Two of Swords'.",
+      "ru": "На карте «Two of Swords» изображён Jakob (закрытые глаза)."
     },
     "upright": {
-      "en": "Upright meaning for Card 52.",
-      "ru": "Прямое значение для Карты 52."
+      "en": "Upright meaning of Two of Swords.",
+      "ru": "Прямое значение карты «Two of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 52.",
-      "ru": "Перевернутое значение для Карты 52."
+      "en": "Reversed meaning of Two of Swords.",
+      "ru": "Перевернутое значение карты «Two of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_52.jpg"
+    "image": "images/two_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 53",
-      "ru": "Карта 53"
+      "en": "Three of Swords",
+      "ru": "Three of Swords"
     },
     "character": {
-      "en": "Character 53",
-      "ru": "Персонаж 53"
+      "en": "Rose с разбитым сердцем",
+      "ru": "Rose с разбитым сердцем"
     },
     "description": {
-      "en": "Description for Card 53.",
-      "ru": "Описание для Карты 53."
+      "en": "Rose с разбитым сердцем is represented on the card 'Three of Swords'.",
+      "ru": "На карте «Three of Swords» изображён Rose с разбитым сердцем."
     },
     "upright": {
-      "en": "Upright meaning for Card 53.",
-      "ru": "Прямое значение для Карты 53."
+      "en": "Upright meaning of Three of Swords.",
+      "ru": "Прямое значение карты «Three of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 53.",
-      "ru": "Перевернутое значение для Карты 53."
+      "en": "Reversed meaning of Three of Swords.",
+      "ru": "Перевернутое значение карты «Three of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_53.jpg"
+    "image": "images/three_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 54",
-      "ru": "Карта 54"
+      "en": "Four of Swords",
+      "ru": "Four of Swords"
     },
     "character": {
-      "en": "Character 54",
-      "ru": "Персонаж 54"
+      "en": "Sarah White",
+      "ru": "Sarah White"
     },
     "description": {
-      "en": "Description for Card 54.",
-      "ru": "Описание для Карты 54."
+      "en": "Sarah White is represented on the card 'Four of Swords'.",
+      "ru": "На карте «Four of Swords» изображён Sarah White."
     },
     "upright": {
-      "en": "Upright meaning for Card 54.",
-      "ru": "Прямое значение для Карты 54."
+      "en": "Upright meaning of Four of Swords.",
+      "ru": "Прямое значение карты «Four of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 54.",
-      "ru": "Перевернутое значение для Карты 54."
+      "en": "Reversed meaning of Four of Swords.",
+      "ru": "Перевернутое значение карты «Four of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_54.jpg"
+    "image": "images/four_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 55",
-      "ru": "Карта 55"
+      "en": "Five of Swords",
+      "ru": "Five of Swords"
     },
     "character": {
-      "en": "Character 55",
-      "ru": "Персонаж 55"
+      "en": "Albert Vanderboom (предательство)",
+      "ru": "Albert Vanderboom (предательство)"
     },
     "description": {
-      "en": "Description for Card 55.",
-      "ru": "Описание для Карты 55."
+      "en": "Albert Vanderboom (предательство) is represented on the card 'Five of Swords'.",
+      "ru": "На карте «Five of Swords» изображён Albert Vanderboom (предательство)."
     },
     "upright": {
-      "en": "Upright meaning for Card 55.",
-      "ru": "Прямое значение для Карты 55."
+      "en": "Upright meaning of Five of Swords.",
+      "ru": "Прямое значение карты «Five of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 55.",
-      "ru": "Перевернутое значение для Карты 55."
+      "en": "Reversed meaning of Five of Swords.",
+      "ru": "Перевернутое значение карты «Five of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_55.jpg"
+    "image": "images/five_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 56",
-      "ru": "Карта 56"
+      "en": "Six of Swords",
+      "ru": "Six of Swords"
     },
     "character": {
-      "en": "Character 56",
-      "ru": "Персонаж 56"
+      "en": "Лодка смерти",
+      "ru": "Лодка смерти"
     },
     "description": {
-      "en": "Description for Card 56.",
-      "ru": "Описание для Карты 56."
+      "en": "Лодка смерти is represented on the card 'Six of Swords'.",
+      "ru": "На карте «Six of Swords» изображён Лодка смерти."
     },
     "upright": {
-      "en": "Upright meaning for Card 56.",
-      "ru": "Прямое значение для Карты 56."
+      "en": "Upright meaning of Six of Swords.",
+      "ru": "Прямое значение карты «Six of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 56.",
-      "ru": "Перевернутое значение для Карты 56."
+      "en": "Reversed meaning of Six of Swords.",
+      "ru": "Перевернутое значение карты «Six of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_56.jpg"
+    "image": "images/six_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 57",
-      "ru": "Карта 57"
+      "en": "Seven of Swords",
+      "ru": "Seven of Swords"
     },
     "character": {
-      "en": "Character 57",
-      "ru": "Персонаж 57"
+      "en": "Мистер Олень",
+      "ru": "Мистер Олень"
     },
     "description": {
-      "en": "Description for Card 57.",
-      "ru": "Описание для Карты 57."
+      "en": "Мистер Олень is represented on the card 'Seven of Swords'.",
+      "ru": "На карте «Seven of Swords» изображён Мистер Олень."
     },
     "upright": {
-      "en": "Upright meaning for Card 57.",
-      "ru": "Прямое значение для Карты 57."
+      "en": "Upright meaning of Seven of Swords.",
+      "ru": "Прямое значение карты «Seven of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 57.",
-      "ru": "Перевернутое значение для Карты 57."
+      "en": "Reversed meaning of Seven of Swords.",
+      "ru": "Перевернутое значение карты «Seven of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_57.jpg"
+    "image": "images/seven_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 58",
-      "ru": "Карта 58"
+      "en": "Eight of Swords",
+      "ru": "Eight of Swords"
     },
     "character": {
-      "en": "Character 58",
-      "ru": "Персонаж 58"
+      "en": "Мистер Кролик (плен)",
+      "ru": "Мистер Кролик (плен)"
     },
     "description": {
-      "en": "Description for Card 58.",
-      "ru": "Описание для Карты 58."
+      "en": "Мистер Кролик (плен) is represented on the card 'Eight of Swords'.",
+      "ru": "На карте «Eight of Swords» изображён Мистер Кролик (плен)."
     },
     "upright": {
-      "en": "Upright meaning for Card 58.",
-      "ru": "Прямое значение для Карты 58."
+      "en": "Upright meaning of Eight of Swords.",
+      "ru": "Прямое значение карты «Eight of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 58.",
-      "ru": "Перевернутое значение для Карты 58."
+      "en": "Reversed meaning of Eight of Swords.",
+      "ru": "Перевернутое значение карты «Eight of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_58.jpg"
+    "image": "images/eight_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 59",
-      "ru": "Карта 59"
+      "en": "Nine of Swords",
+      "ru": "Nine of Swords"
     },
     "character": {
-      "en": "Character 59",
-      "ru": "Персонаж 59"
+      "en": "Девочка с кошмарами",
+      "ru": "Девочка с кошмарами"
     },
     "description": {
-      "en": "Description for Card 59.",
-      "ru": "Описание для Карты 59."
+      "en": "Девочка с кошмарами is represented on the card 'Nine of Swords'.",
+      "ru": "На карте «Nine of Swords» изображён Девочка с кошмарами."
     },
     "upright": {
-      "en": "Upright meaning for Card 59.",
-      "ru": "Прямое значение для Карты 59."
+      "en": "Upright meaning of Nine of Swords.",
+      "ru": "Прямое значение карты «Nine of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 59.",
-      "ru": "Перевернутое значение для Карты 59."
+      "en": "Reversed meaning of Nine of Swords.",
+      "ru": "Перевернутое значение карты «Nine of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_59.jpg"
+    "image": "images/nine_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 60",
-      "ru": "Карта 60"
+      "en": "Ten of Swords",
+      "ru": "Ten of Swords"
     },
     "character": {
-      "en": "Character 60",
-      "ru": "Персонаж 60"
+      "en": "Мертвый Леонард",
+      "ru": "Мертвый Леонард"
     },
     "description": {
-      "en": "Description for Card 60.",
-      "ru": "Описание для Карты 60."
+      "en": "Мертвый Леонард is represented on the card 'Ten of Swords'.",
+      "ru": "На карте «Ten of Swords» изображён Мертвый Леонард."
     },
     "upright": {
-      "en": "Upright meaning for Card 60.",
-      "ru": "Прямое значение для Карты 60."
+      "en": "Upright meaning of Ten of Swords.",
+      "ru": "Прямое значение карты «Ten of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 60.",
-      "ru": "Перевернутое значение для Карты 60."
+      "en": "Reversed meaning of Ten of Swords.",
+      "ru": "Перевернутое значение карты «Ten of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_60.jpg"
+    "image": "images/ten_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 61",
-      "ru": "Карта 61"
+      "en": "Page of Swords",
+      "ru": "Page of Swords"
     },
     "character": {
-      "en": "Character 61",
-      "ru": "Персонаж 61"
+      "en": "Юный Nicholas",
+      "ru": "Юный Nicholas"
     },
     "description": {
-      "en": "Description for Card 61.",
-      "ru": "Описание для Карты 61."
+      "en": "Юный Nicholas is represented on the card 'Page of Swords'.",
+      "ru": "На карте «Page of Swords» изображён Юный Nicholas."
     },
     "upright": {
-      "en": "Upright meaning for Card 61.",
-      "ru": "Прямое значение для Карты 61."
+      "en": "Upright meaning of Page of Swords.",
+      "ru": "Прямое значение карты «Page of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 61.",
-      "ru": "Перевернутое значение для Карты 61."
+      "en": "Reversed meaning of Page of Swords.",
+      "ru": "Перевернутое значение карты «Page of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_61.jpg"
+    "image": "images/page_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 62",
-      "ru": "Карта 62"
+      "en": "Knight of Swords",
+      "ru": "Knight of Swords"
     },
     "character": {
-      "en": "Character 62",
-      "ru": "Персонаж 62"
+      "en": "Детектив Dale (в момент кризиса)",
+      "ru": "Детектив Dale (в момент кризиса)"
     },
     "description": {
-      "en": "Description for Card 62.",
-      "ru": "Описание для Карты 62."
+      "en": "Детектив Dale (в момент кризиса) is represented on the card 'Knight of Swords'.",
+      "ru": "На карте «Knight of Swords» изображён Детектив Dale (в момент кризиса)."
     },
     "upright": {
-      "en": "Upright meaning for Card 62.",
-      "ru": "Прямое значение для Карты 62."
+      "en": "Upright meaning of Knight of Swords.",
+      "ru": "Прямое значение карты «Knight of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 62.",
-      "ru": "Перевернутое значение для Карты 62."
+      "en": "Reversed meaning of Knight of Swords.",
+      "ru": "Перевернутое значение карты «Knight of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_62.jpg"
+    "image": "images/knight_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 63",
-      "ru": "Карта 63"
+      "en": "Queen of Swords",
+      "ru": "Queen of Swords"
     },
     "character": {
-      "en": "Character 63",
-      "ru": "Персонаж 63"
+      "en": "Elizabeth Eilander",
+      "ru": "Elizabeth Eilander"
     },
     "description": {
-      "en": "Description for Card 63.",
-      "ru": "Описание для Карты 63."
+      "en": "Elizabeth Eilander is represented on the card 'Queen of Swords'.",
+      "ru": "На карте «Queen of Swords» изображён Elizabeth Eilander."
     },
     "upright": {
-      "en": "Upright meaning for Card 63.",
-      "ru": "Прямое значение для Карты 63."
+      "en": "Upright meaning of Queen of Swords.",
+      "ru": "Прямое значение карты «Queen of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 63.",
-      "ru": "Перевернутое значение для Карты 63."
+      "en": "Reversed meaning of Queen of Swords.",
+      "ru": "Перевернутое значение карты «Queen of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_63.jpg"
+    "image": "images/queen_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 64",
-      "ru": "Карта 64"
+      "en": "King of Swords",
+      "ru": "King of Swords"
     },
     "character": {
-      "en": "Character 64",
-      "ru": "Персонаж 64"
+      "en": "Jakob как судья",
+      "ru": "Jakob как судья"
     },
     "description": {
-      "en": "Description for Card 64.",
-      "ru": "Описание для Карты 64."
+      "en": "Jakob как судья is represented on the card 'King of Swords'.",
+      "ru": "На карте «King of Swords» изображён Jakob как судья."
     },
     "upright": {
-      "en": "Upright meaning for Card 64.",
-      "ru": "Прямое значение для Карты 64."
+      "en": "Upright meaning of King of Swords.",
+      "ru": "Прямое значение карты «King of Swords»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 64.",
-      "ru": "Перевернутое значение для Карты 64."
+      "en": "Reversed meaning of King of Swords.",
+      "ru": "Перевернутое значение карты «King of Swords»."
     },
     "suit": "swords",
-    "image": "images/card_64.jpg"
+    "image": "images/king_of_swords.jpg"
   },
   {
     "title": {
-      "en": "Card 65",
-      "ru": "Карта 65"
+      "en": "Ace of Pentacles",
+      "ru": "Ace of Pentacles"
     },
     "character": {
-      "en": "Character 65",
-      "ru": "Персонаж 65"
+      "en": "Ветвь дерева",
+      "ru": "Ветвь дерева"
     },
     "description": {
-      "en": "Description for Card 65.",
-      "ru": "Описание для Карты 65."
+      "en": "Ветвь дерева is represented on the card 'Ace of Pentacles'.",
+      "ru": "На карте «Ace of Pentacles» изображён Ветвь дерева."
     },
     "upright": {
-      "en": "Upright meaning for Card 65.",
-      "ru": "Прямое значение для Карты 65."
+      "en": "Upright meaning of Ace of Pentacles.",
+      "ru": "Прямое значение карты «Ace of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 65.",
-      "ru": "Перевернутое значение для Карты 65."
+      "en": "Reversed meaning of Ace of Pentacles.",
+      "ru": "Перевернутое значение карты «Ace of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_65.jpg"
+    "image": "images/ace_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 66",
-      "ru": "Карта 66"
+      "en": "Two of Pentacles",
+      "ru": "Two of Pentacles"
     },
     "character": {
-      "en": "Character 66",
-      "ru": "Персонаж 66"
+      "en": "Балансирующий Jakob",
+      "ru": "Балансирующий Jakob"
     },
     "description": {
-      "en": "Description for Card 66.",
-      "ru": "Описание для Карты 66."
+      "en": "Балансирующий Jakob is represented on the card 'Two of Pentacles'.",
+      "ru": "На карте «Two of Pentacles» изображён Балансирующий Jakob."
     },
     "upright": {
-      "en": "Upright meaning for Card 66.",
-      "ru": "Прямое значение для Карты 66."
+      "en": "Upright meaning of Two of Pentacles.",
+      "ru": "Прямое значение карты «Two of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 66.",
-      "ru": "Перевернутое значение для Карты 66."
+      "en": "Reversed meaning of Two of Pentacles.",
+      "ru": "Перевернутое значение карты «Two of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_66.jpg"
+    "image": "images/two_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 67",
-      "ru": "Карта 67"
+      "en": "Three of Pentacles",
+      "ru": "Three of Pentacles"
     },
     "character": {
-      "en": "Character 67",
-      "ru": "Персонаж 67"
+      "en": "Работающие братья",
+      "ru": "Работающие братья"
     },
     "description": {
-      "en": "Description for Card 67.",
-      "ru": "Описание для Карты 67."
+      "en": "Работающие братья is represented on the card 'Three of Pentacles'.",
+      "ru": "На карте «Three of Pentacles» изображён Работающие братья."
     },
     "upright": {
-      "en": "Upright meaning for Card 67.",
-      "ru": "Прямое значение для Карты 67."
+      "en": "Upright meaning of Three of Pentacles.",
+      "ru": "Прямое значение карты «Three of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 67.",
-      "ru": "Перевернутое значение для Карты 67."
+      "en": "Reversed meaning of Three of Pentacles.",
+      "ru": "Перевернутое значение карты «Three of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_67.jpg"
+    "image": "images/three_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 68",
-      "ru": "Карта 68"
+      "en": "Four of Pentacles",
+      "ru": "Four of Pentacles"
     },
     "character": {
-      "en": "Character 68",
-      "ru": "Персонаж 68"
+      "en": "Альберт с ключами",
+      "ru": "Альберт с ключами"
     },
     "description": {
-      "en": "Description for Card 68.",
-      "ru": "Описание для Карты 68."
+      "en": "Альберт с ключами is represented on the card 'Four of Pentacles'.",
+      "ru": "На карте «Four of Pentacles» изображён Альберт с ключами."
     },
     "upright": {
-      "en": "Upright meaning for Card 68.",
-      "ru": "Прямое значение для Карты 68."
+      "en": "Upright meaning of Four of Pentacles.",
+      "ru": "Прямое значение карты «Four of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 68.",
-      "ru": "Перевернутое значение для Карты 68."
+      "en": "Reversed meaning of Four of Pentacles.",
+      "ru": "Перевернутое значение карты «Four of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_68.jpg"
+    "image": "images/four_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 69",
-      "ru": "Карта 69"
+      "en": "Five of Pentacles",
+      "ru": "Five of Pentacles"
     },
     "character": {
-      "en": "Character 69",
-      "ru": "Персонаж 69"
+      "en": "Больной Леонард",
+      "ru": "Больной Леонард"
     },
     "description": {
-      "en": "Description for Card 69.",
-      "ru": "Описание для Карты 69."
+      "en": "Больной Леонард is represented on the card 'Five of Pentacles'.",
+      "ru": "На карте «Five of Pentacles» изображён Больной Леонард."
     },
     "upright": {
-      "en": "Upright meaning for Card 69.",
-      "ru": "Прямое значение для Карты 69."
+      "en": "Upright meaning of Five of Pentacles.",
+      "ru": "Прямое значение карты «Five of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 69.",
-      "ru": "Перевернутое значение для Карты 69."
+      "en": "Reversed meaning of Five of Pentacles.",
+      "ru": "Перевернутое значение карты «Five of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_69.jpg"
+    "image": "images/five_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 70",
-      "ru": "Карта 70"
+      "en": "Six of Pentacles",
+      "ru": "Six of Pentacles"
     },
     "character": {
-      "en": "Character 70",
-      "ru": "Персонаж 70"
+      "en": "William с подношением",
+      "ru": "William с подношением"
     },
     "description": {
-      "en": "Description for Card 70.",
-      "ru": "Описание для Карты 70."
+      "en": "William с подношением is represented on the card 'Six of Pentacles'.",
+      "ru": "На карте «Six of Pentacles» изображён William с подношением."
     },
     "upright": {
-      "en": "Upright meaning for Card 70.",
-      "ru": "Прямое значение для Карты 70."
+      "en": "Upright meaning of Six of Pentacles.",
+      "ru": "Прямое значение карты «Six of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 70.",
-      "ru": "Перевернутое значение для Карты 70."
+      "en": "Reversed meaning of Six of Pentacles.",
+      "ru": "Перевернутое значение карты «Six of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_70.jpg"
+    "image": "images/six_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 71",
-      "ru": "Карта 71"
+      "en": "Seven of Pentacles",
+      "ru": "Seven of Pentacles"
     },
     "character": {
-      "en": "Character 71",
-      "ru": "Персонаж 71"
+      "en": "Paul Gauguin",
+      "ru": "Paul Gauguin"
     },
     "description": {
-      "en": "Description for Card 71.",
-      "ru": "Описание для Карты 71."
+      "en": "Paul Gauguin is represented on the card 'Seven of Pentacles'.",
+      "ru": "На карте «Seven of Pentacles» изображён Paul Gauguin."
     },
     "upright": {
-      "en": "Upright meaning for Card 71.",
-      "ru": "Прямое значение для Карты 71."
+      "en": "Upright meaning of Seven of Pentacles.",
+      "ru": "Прямое значение карты «Seven of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 71.",
-      "ru": "Перевернутое значение для Карты 71."
+      "en": "Reversed meaning of Seven of Pentacles.",
+      "ru": "Перевернутое значение карты «Seven of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_71.jpg"
+    "image": "images/seven_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 72",
-      "ru": "Карта 72"
+      "en": "Eight of Pentacles",
+      "ru": "Eight of Pentacles"
     },
     "character": {
-      "en": "Character 72",
-      "ru": "Персонаж 72"
+      "en": "The Fisherman",
+      "ru": "The Fisherman"
     },
     "description": {
-      "en": "Description for Card 72.",
-      "ru": "Описание для Карты 72."
+      "en": "The Fisherman is represented on the card 'Eight of Pentacles'.",
+      "ru": "На карте «Eight of Pentacles» изображён The Fisherman."
     },
     "upright": {
-      "en": "Upright meaning for Card 72.",
-      "ru": "Прямое значение для Карты 72."
+      "en": "Upright meaning of Eight of Pentacles.",
+      "ru": "Прямое значение карты «Eight of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 72.",
-      "ru": "Перевернутое значение для Карты 72."
+      "en": "Reversed meaning of Eight of Pentacles.",
+      "ru": "Перевернутое значение карты «Eight of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_72.jpg"
+    "image": "images/eight_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 73",
-      "ru": "Карта 73"
+      "en": "Nine of Pentacles",
+      "ru": "Nine of Pentacles"
     },
     "character": {
-      "en": "Character 73",
-      "ru": "Персонаж 73"
+      "en": "Rose в роскоши",
+      "ru": "Rose в роскоши"
     },
     "description": {
-      "en": "Description for Card 73.",
-      "ru": "Описание для Карты 73."
+      "en": "Rose в роскоши is represented on the card 'Nine of Pentacles'.",
+      "ru": "На карте «Nine of Pentacles» изображён Rose в роскоши."
     },
     "upright": {
-      "en": "Upright meaning for Card 73.",
-      "ru": "Прямое значение для Карты 73."
+      "en": "Upright meaning of Nine of Pentacles.",
+      "ru": "Прямое значение карты «Nine of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 73.",
-      "ru": "Перевернутое значение для Карты 73."
+      "en": "Reversed meaning of Nine of Pentacles.",
+      "ru": "Перевернутое значение карты «Nine of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_73.jpg"
+    "image": "images/nine_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 74",
-      "ru": "Карта 74"
+      "en": "Ten of Pentacles",
+      "ru": "Ten of Pentacles"
     },
     "character": {
-      "en": "Character 74",
-      "ru": "Персонаж 74"
+      "en": "Старуха",
+      "ru": "Старуха"
     },
     "description": {
-      "en": "Description for Card 74.",
-      "ru": "Описание для Карты 74."
+      "en": "Старуха is represented on the card 'Ten of Pentacles'.",
+      "ru": "На карте «Ten of Pentacles» изображён Старуха."
     },
     "upright": {
-      "en": "Upright meaning for Card 74.",
-      "ru": "Прямое значение для Карты 74."
+      "en": "Upright meaning of Ten of Pentacles.",
+      "ru": "Прямое значение карты «Ten of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 74.",
-      "ru": "Перевернутое значение для Карты 74."
+      "en": "Reversed meaning of Ten of Pentacles.",
+      "ru": "Перевернутое значение карты «Ten of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_74.jpg"
+    "image": "images/ten_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 75",
-      "ru": "Карта 75"
+      "en": "Page of Pentacles",
+      "ru": "Page of Pentacles"
     },
     "character": {
-      "en": "Character 75",
-      "ru": "Персонаж 75"
+      "en": "Мальчик, пишущий в дневнике",
+      "ru": "Мальчик, пишущий в дневнике"
     },
     "description": {
-      "en": "Description for Card 75.",
-      "ru": "Описание для Карты 75."
+      "en": "Мальчик, пишущий в дневнике is represented on the card 'Page of Pentacles'.",
+      "ru": "На карте «Page of Pentacles» изображён Мальчик, пишущий в дневнике."
     },
     "upright": {
-      "en": "Upright meaning for Card 75.",
-      "ru": "Прямое значение для Карты 75."
+      "en": "Upright meaning of Page of Pentacles.",
+      "ru": "Прямое значение карты «Page of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 75.",
-      "ru": "Перевернутое значение для Карты 75."
+      "en": "Reversed meaning of Page of Pentacles.",
+      "ru": "Перевернутое значение карты «Page of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_75.jpg"
+    "image": "images/page_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 76",
-      "ru": "Карта 76"
+      "en": "Knight of Pentacles",
+      "ru": "Knight of Pentacles"
     },
     "character": {
-      "en": "Character 76",
-      "ru": "Персонаж 76"
+      "en": "Доставщик еды из Past Within",
+      "ru": "Доставщик еды из Past Within"
     },
     "description": {
-      "en": "Description for Card 76.",
-      "ru": "Описание для Карты 76."
+      "en": "Доставщик еды из Past Within is represented on the card 'Knight of Pentacles'.",
+      "ru": "На карте «Knight of Pentacles» изображён Доставщик еды из Past Within."
     },
     "upright": {
-      "en": "Upright meaning for Card 76.",
-      "ru": "Прямое значение для Карты 76."
+      "en": "Upright meaning of Knight of Pentacles.",
+      "ru": "Прямое значение карты «Knight of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 76.",
-      "ru": "Перевернутое значение для Карты 76."
+      "en": "Reversed meaning of Knight of Pentacles.",
+      "ru": "Перевернутое значение карты «Knight of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_76.jpg"
+    "image": "images/knight_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 77",
-      "ru": "Карта 77"
+      "en": "Queen of Pentacles",
+      "ru": "Queen of Pentacles"
     },
     "character": {
-      "en": "Character 77",
-      "ru": "Персонаж 77"
+      "en": "Женщина у дерева",
+      "ru": "Женщина у дерева"
     },
     "description": {
-      "en": "Description for Card 77.",
-      "ru": "Описание для Карты 77."
+      "en": "Женщина у дерева is represented on the card 'Queen of Pentacles'.",
+      "ru": "На карте «Queen of Pentacles» изображён Женщина у дерева."
     },
     "upright": {
-      "en": "Upright meaning for Card 77.",
-      "ru": "Прямое значение для Карты 77."
+      "en": "Upright meaning of Queen of Pentacles.",
+      "ru": "Прямое значение карты «Queen of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 77.",
-      "ru": "Перевернутое значение для Карты 77."
+      "en": "Reversed meaning of Queen of Pentacles.",
+      "ru": "Перевернутое значение карты «Queen of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_77.jpg"
+    "image": "images/queen_of_pentacles.jpg"
   },
   {
     "title": {
-      "en": "Card 78",
-      "ru": "Карта 78"
+      "en": "King of Pentacles",
+      "ru": "King of Pentacles"
     },
     "character": {
-      "en": "Character 78",
-      "ru": "Персонаж 78"
+      "en": "Старый William Vanderboom",
+      "ru": "Старый William Vanderboom"
     },
     "description": {
-      "en": "Description for Card 78.",
-      "ru": "Описание для Карты 78."
+      "en": "Старый William Vanderboom is represented on the card 'King of Pentacles'.",
+      "ru": "На карте «King of Pentacles» изображён Старый William Vanderboom."
     },
     "upright": {
-      "en": "Upright meaning for Card 78.",
-      "ru": "Прямое значение для Карты 78."
+      "en": "Upright meaning of King of Pentacles.",
+      "ru": "Прямое значение карты «King of Pentacles»."
     },
     "reversed": {
-      "en": "Reversed meaning for Card 78.",
-      "ru": "Перевернутое значение для Карты 78."
+      "en": "Reversed meaning of King of Pentacles.",
+      "ru": "Перевернутое значение карты «King of Pentacles»."
     },
     "suit": "pentacles",
-    "image": "images/card_78.jpg"
+    "image": "images/king_of_pentacles.jpg"
   }
 ];
