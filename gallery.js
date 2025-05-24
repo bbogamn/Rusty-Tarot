@@ -13,7 +13,7 @@ function renderGallery() {
     const cardName = card.title.en.toLowerCase().replace(/ /g, "_");
     div.innerHTML = `
       <a href="card.html?name=${cardName}">
-        <h2>${card.title.ru || card.title.en} / ${card.title.en}</h2>
+        <h2>${card.title.ru} / ${card.title.en}</h2>
         <img src="${card.image}" alt="${card.title.en}" style="max-width: 200px;" />
       </a>
     `;
