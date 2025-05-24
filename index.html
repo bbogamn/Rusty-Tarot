@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Rusty Lake Tarot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rusty Lake Tarot</h1>
+        <p id="intro-text">Добро пожаловать! Выберите карту ниже.</p>
+        <div id="controls">
+            <label for="language-select">Язык / Language:</label>
+            <select id="language-select">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <div id="filters">
+            <button data-suit="all">Все / All</button>
+            <button data-suit="major">Старшие арканы / Major</button>
+            <button data-suit="wands">Жезлы / Wands</button>
+            <button data-suit="cups">Кубки / Cups</button>
+            <button data-suit="swords">Мечи / Swords</button>
+            <button data-suit="pentacles">Пентакли / Pentacles</button>
+        </div>
+    </header>
+    <main id="cards-container"></main>
+    <script src="cards.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
