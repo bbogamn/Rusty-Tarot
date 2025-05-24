@@ -4,9 +4,19 @@ body {
     margin: 20px;
     background-color: #f7f7f7;
 }
+
 header nav {
     margin-bottom: 20px;
+    text-align: center;
 }
+
+header nav a, header nav button {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
 .card-box {
     display: block;
     width: 180px;
@@ -18,24 +28,40 @@ header nav {
     text-align: center;
     text-decoration: none;
     color: black;
+    transition: transform 0.2s ease;
 }
+.card-box:hover {
+    transform: scale(1.05);
+}
+
 .card-box img {
     width: 100%;
     height: auto;
     border-radius: 6px;
 }
+
 .gallery-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
 }
+
 input[type="text"] {
-    width: 80%;
+    width: 90%;
+    max-width: 600px;
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .card-box {
+        width: 90%;
+    }
 }
