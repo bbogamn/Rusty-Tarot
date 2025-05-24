@@ -5,17 +5,18 @@
     <title>Rusty Tarot Gallery</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/data.js" defer></script>
+    <script src="js/lang.js" defer></script>
     <script>
     document.addEventListener("DOMContentLoaded", function() {
         const gallery = document.getElementById("gallery");
         cards.forEach(card => {
             const cardEl = document.createElement("a");
             cardEl.href = "cards/" + card.filename;
+            cardEl.className = "card-box";
             cardEl.innerHTML = `
-                <div class="card-box">
-                    <img src="images/${card.image}" alt="${card.card_title_en}">
-                    <h3>${card.card_title_en}</h3>
-                </div>
+                <img src="images/${card.image}" alt="${card.card_title_en}">
+                <h3 data-lang-en="${card.card_title_en}" data-lang-ru="${card.card_title_ru}">${card.card_title_en}</h3>
+                <h4 data-lang-en="${card.character_en}" data-lang-ru="${card.character_ru}">${card.character_en}</h4>
             `;
             gallery.appendChild(cardEl);
         });
@@ -23,7 +24,14 @@
     </script>
 </head>
 <body>
-    <h1>Rusty Tarot Gallery</h1>
+    <header>
+        <nav>
+            <a href="index.html" data-lang-en="Gallery" data-lang-ru="Галерея">Gallery</a> |
+            <a href="search.html" data-lang-en="Search" data-lang-ru="Поиск">Search</a>
+            <button onclick="toggleLanguage()" style="float:right;">Switch Language</button>
+        </nav>
+    </header>
+    <h1 data-lang-en="Rusty Tarot Gallery" data-lang-ru="Галерея Таро Rusty Lake">Rusty Tarot Gallery</h1>
     <div id="gallery" class="gallery-grid"></div>
 </body>
 </html>

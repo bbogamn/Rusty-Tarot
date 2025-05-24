@@ -1,1 +1,53 @@
-<!DOCTYPE html><html><head><title>Поиск</title></head><body>Поиск</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/lang.js" defer></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const searchInput = document.getElementById("search");
+        const results = document.getElementById("results");
+
+        function renderResults(query) {
+            results.innerHTML = '';
+            if (!query.trim()) return;
+            const q = query.toLowerCase();
+            const filtered = cards.filter(card =>
+                card.card_title_en.toLowerCase().includes(q) ||
+                card.card_title_ru.toLowerCase().includes(q) ||
+                card.character_en.toLowerCase().includes(q) ||
+                card.character_ru.toLowerCase().includes(q)
+            );
+            filtered.forEach(card => {
+                const cardEl = document.createElement("a");
+                cardEl.href = "cards/" + card.filename;
+                cardEl.className = "card-box";
+                cardEl.innerHTML = `
+                    <img src="images/${card.image}" alt="${card.card_title_en}">
+                    <h3 data-lang-en="${card.card_title_en}" data-lang-ru="${card.card_title_ru}">${card.card_title_en}</h3>
+                    <h4 data-lang-en="${card.character_en}" data-lang-ru="${card.character_ru}">${card.character_en}</h4>
+                `;
+                results.appendChild(cardEl);
+            });
+        }
+
+        searchInput.addEventListener("input", () => renderResults(searchInput.value));
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" data-lang-en="Gallery" data-lang-ru="Галерея">Gallery</a> |
+            <a href="search.html" data-lang-en="Search" data-lang-ru="Поиск">Search</a>
+            <button onclick="toggleLanguage()" style="float:right;">Switch Language</button>
+        </nav>
+    </header>
+    <h1 data-lang-en="Search" data-lang-ru="Поиск">Search</h1>
+    <input type="text" id="search" placeholder="Search by card or character">
+    <div id="results" class="gallery-grid"></div>
+</body>
+</html>
