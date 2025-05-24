@@ -1,50 +1,23 @@
 const cards = [
   {
-    "title": {
-      "en": "The Fool",
-      "ru": "Шут"
-    },
-    "character": {
-      "en": "James Vanderboom",
-      "ru": "Джеймс Вандербум"
-    },
-    "description": {
-      "en": "James Vanderboom is represented on the card 'The Fool'.",
-      "ru": "На карте «Шут» изображён Джеймс Вандербум."
-    },
-    "upright": {
-      "en": "Beginnings, innocence, spontaneity, a free spirit.",
-      "ru": "Начало, невинность, спонтанность, свобода духа."
-    },
-    "reversed": {
-      "en": "Recklessness, taken advantage of, inconsideration.",
-      "ru": "Безрассудство, уязвимость, неосмотрительность."
-    },
-    "suit": "major",
-    "image": "images/the_fool.jpg"
+    "title": "The Fool",
+    "translation": "Дурак",
+    "description_en": "Young and naive, taking the first step into the unknown by drinking a potion, unaware of consequences.",
+    "description_ru": "Молодой и наивный, делает первый шаг в неизвестность, пьёт зелье, не осознавая последствий.",
+    "image": "the_fool.jpg"
   },
   {
-    "title": {
-      "en": "The Magician",
-      "ru": "Маг"
-    },
-    "character": {
-      "en": "David Eilander / Mr. Rabbit",
-      "ru": "Дэвид Айландер / Мистер Кролик"
-    },
-    "description": {
-      "en": "David Eilander, also known as Mr. Rabbit, embodies the Magician.",
-      "ru": "Дэвид Айландер, известный как Мистер Кролик, воплощает карту «Маг»."
-    },
-    "upright": {
-      "en": "Manifestation, resourcefulness, power, inspired action.",
-      "ru": "Проявление, находчивость, сила, вдохновлённое действие."
-    },
-    "reversed": {
-      "en": "Manipulation, poor planning, untapped talents.",
-      "ru": "Манипуляция, плохое планирование, нераскрытые таланты."
-    },
-    "suit": "major",
-    "image": "images/the_magician.jpg"
+    "title": "The Magician",
+    "translation": "Маг",
+    "description_en": "Manipulator of energy, transforming body and mind for the sake of power.",
+    "description_ru": "Манипулятор энергией, трансформирующий своё тело и разум ради власти.",
+    "image": "the_magician.jpg"
+  },
+  {
+    "title": "The High Priestess",
+    "translation": "Верховная Жрица",
+    "description_en": "Mysterious figure connected to secret knowledge and lunar intuition.",
+    "description_ru": "Таинственная фигура, связанная с тайными знаниями и лунной интуицией.",
+    "image": "the_high_priestess.jpg"
   }
 ];
