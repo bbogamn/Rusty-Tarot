@@ -1,0 +1,1 @@
+const container=document.getElementById("gallery-container");cards.forEach(e=>{const t=document.createElement("div");t.className="card",t.innerHTML=`<h2>${e.title.ru} / ${e.title.en}</h2><h3>${e.character.ru} / ${e.character.en}</h3><img src="${e.image}" alt="${e.title.en}" style="max-width:200px;">`,container.appendChild(t)});
