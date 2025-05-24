@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Rusty Lake Tarot — Поиск</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Rusty Tarot Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const gallery = document.getElementById("gallery");
+        cards.forEach(card => {
+            const cardEl = document.createElement("a");
+            cardEl.href = "cards/" + card.filename;
+            cardEl.innerHTML = `
+                <div class="card-box">
+                    <img src="images/${card.image}" alt="${card.card_title_en}">
+                    <h3>${card.card_title_en}</h3>
+                </div>
+            `;
+            gallery.appendChild(cardEl);
+        });
+    });
+    </script>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Поиск</a>
-    <a href="gallery.html">Галерея</a>
-  </nav>
-  <main class="centered">
-    <h1>Найди свою карту</h1>
-    <input type="text" id="search-input" placeholder="Введите название карты..." autocomplete="off" />
-    <ul id="suggestions"></ul>
-    <p id="error-message"></p>
-  </main>
-  <script src="cards.js"></script>
-  <script src="search.js"></script>
+    <h1>Rusty Tarot Gallery</h1>
+    <div id="gallery" class="gallery-grid"></div>
 </body>
 </html>
