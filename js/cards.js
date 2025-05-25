@@ -1,5 +1,5 @@
 
-fetch('cards.json')
+fetch('./cards.json')
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById('cardList');
