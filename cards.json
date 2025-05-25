@@ -7,7 +7,7 @@
     "character": "Dale Vandermeer",
     "meaning_ru": "Начало действия, воля к раскрытию",
     "meaning_en": "",
-    "image": "images/card_1.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "character": "James Vanderboom",
     "meaning_ru": "Планирование, выбор пути",
     "meaning_en": "",
-    "image": "images/card_2.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "character": "Rose Vanderboom",
     "meaning_ru": "Надежда, рост, перспектива",
     "meaning_en": "",
-    "image": "images/card_3.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "character": "Emma Vanderboom",
     "meaning_ru": "Краткий мир, семейное тепло",
     "meaning_en": "",
-    "image": "images/card_4.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "character": "Mary Vanderboom",
     "meaning_ru": "Конфликт страстей, хаос в семье",
     "meaning_en": "",
-    "image": "images/card_5.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "character": "Dale Vandermeer",
     "meaning_ru": "Победа, признание, продвижение",
     "meaning_en": "",
-    "image": "images/card_6.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "character": "Harvey",
     "meaning_ru": "Сопротивление, защита своего",
     "meaning_en": "",
-    "image": "images/card_7.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "character": "Mr. Rabbit",
     "meaning_ru": "Быстрые перемены, внезапность",
     "meaning_en": "",
-    "image": "images/card_8.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "character": "Frank Vanderboom",
     "meaning_ru": "Испытание, стойкость",
     "meaning_en": "",
-    "image": "images/card_9.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "character": "Samuel Vanderboom",
     "meaning_ru": "Бремя знаний, перегрузка",
     "meaning_en": "",
-    "image": "images/card_10.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "character": "James (ребёнок)",
     "meaning_ru": "Любознательность, начало пути",
     "meaning_en": "",
-    "image": "images/card_11.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "character": "Mr. Crow",
     "meaning_ru": "Импульс, стремление вперёд",
     "meaning_en": "",
-    "image": "images/card_12.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "character": "Margaret Eilander",
     "meaning_ru": "Сила духа, независимость",
     "meaning_en": "",
-    "image": "images/card_13.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "character": "Leonard Vanderboom",
     "meaning_ru": "Властность, огненная воля",
     "meaning_en": "",
-    "image": "images/card_14.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "character": "Rose Vanderboom (юная)",
     "meaning_ru": "Начало чувств, любовь, рождение",
     "meaning_en": "",
-    "image": "images/card_15.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "character": "Mary & Frank",
     "meaning_ru": "Романтический союз",
     "meaning_en": "",
-    "image": "images/card_16.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "character": "Сёстры Vanderboom",
     "meaning_ru": "Радость, семейное единение",
     "meaning_en": "",
-    "image": "images/card_17.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "character": "Frank Vanderboom",
     "meaning_ru": "Отчуждение, разочарование",
     "meaning_en": "",
-    "image": "images/card_18.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "character": "Mary Vanderboom",
     "meaning_ru": "Печаль, потеря",
     "meaning_en": "",
-    "image": "images/card_19.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "character": "James (ребёнок)",
     "meaning_ru": "Ностальгия, воспоминания",
     "meaning_en": "",
-    "image": "images/card_20.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 21,
@@ -207,7 +207,7 @@
     "character": "Caroline Eilander",
     "meaning_ru": "Иллюзии, выбор",
     "meaning_en": "",
-    "image": "images/card_21.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 22,
@@ -217,7 +217,7 @@
     "character": "Emma Vanderboom",
     "meaning_ru": "Уход, отказ от прошлого",
     "meaning_en": "",
-    "image": "images/card_22.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 23,
@@ -227,7 +227,7 @@
     "character": "Rose Vanderboom (зрелая)",
     "meaning_ru": "Эмоциональное удовлетворение",
     "meaning_en": "",
-    "image": "images/card_23.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "character": "Семья Vanderboom",
     "meaning_ru": "Гармония, завершение",
     "meaning_en": "",
-    "image": "images/card_24.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 25,
@@ -247,7 +247,7 @@
     "character": "Emma (девочка)",
     "meaning_ru": "Чувствительность, интуиция",
     "meaning_en": "",
-    "image": "images/card_25.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 26,
@@ -257,7 +257,7 @@
     "character": "Frank (молодой)",
     "meaning_ru": "Идеализм, стремление",
     "meaning_en": "",
-    "image": "images/card_26.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "character": "Mary Vanderboom",
     "meaning_ru": "Глубокое чувство, жертвенность",
     "meaning_en": "",
-    "image": "images/card_27.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "character": "Samuel Vanderboom",
     "meaning_ru": "Эмоциональный контроль, алхимия сердца",
     "meaning_en": "",
-    "image": "images/card_28.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "character": "Mr. Owl",
     "meaning_ru": "Проницательность, новая идея",
     "meaning_en": "",
-    "image": "images/card_29.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "character": "Elizabeth Eilander",
     "meaning_ru": "Раздвоенность, неведение",
     "meaning_en": "",
-    "image": "images/card_30.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 31,
@@ -307,7 +307,7 @@
     "character": "Caroline Eilander",
     "meaning_ru": "Сердечная боль, страдание",
     "meaning_en": "",
-    "image": "images/card_31.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 32,
@@ -317,7 +317,7 @@
     "character": "Nicholas Eilander",
     "meaning_ru": "Покой, отстранённость",
     "meaning_en": "",
-    "image": "images/card_32.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "character": "Mr. Rabbit",
     "meaning_ru": "Жестокость, манипуляции",
     "meaning_en": "",
-    "image": "images/card_33.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "character": "Пациент клиники",
     "meaning_ru": "Переход, бегство от боли",
     "meaning_en": "",
-    "image": "images/card_34.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 35,
@@ -347,7 +347,7 @@
     "character": "Harvey",
     "meaning_ru": "Хитрость, ложь",
     "meaning_en": "",
-    "image": "images/card_35.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 36,
@@ -357,7 +357,7 @@
     "character": "Emma Vanderboom",
     "meaning_ru": "Плен разума, ограничения",
     "meaning_en": "",
-    "image": "images/card_36.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "character": "James (кошмары)",
     "meaning_ru": "Тревога, муки совести",
     "meaning_en": "",
-    "image": "images/card_37.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 38,
@@ -377,7 +377,7 @@
     "character": "Mary (гибель)",
     "meaning_ru": "Полное разрушение",
     "meaning_en": "",
-    "image": "images/card_38.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 39,
@@ -387,7 +387,7 @@
     "character": "Dale (новичок)",
     "meaning_ru": "Любопытство, наблюдение",
     "meaning_en": "",
-    "image": "images/card_39.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 40,
@@ -397,7 +397,7 @@
     "character": "Dale (в ярости)",
     "meaning_ru": "Решимость, стремительный бросок",
     "meaning_en": "",
-    "image": "images/card_40.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 41,
@@ -407,7 +407,7 @@
     "character": "Ida Vanderboom",
     "meaning_ru": "Интеллект, боль через знание",
     "meaning_en": "",
-    "image": "images/card_41.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 42,
@@ -417,7 +417,7 @@
     "character": "Albert Vanderboom",
     "meaning_ru": "Холодная логика, контроль",
     "meaning_en": "",
-    "image": "images/card_42.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "character": "Leonard Vanderboom",
     "meaning_ru": "Начало алхимии, материальный путь",
     "meaning_en": "",
-    "image": "images/card_43.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 44,
@@ -437,7 +437,7 @@
     "character": "Gerard Eilander",
     "meaning_ru": "Баланс сил, алхимическое равновесие",
     "meaning_en": "",
-    "image": "images/card_44.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 45,
@@ -447,7 +447,7 @@
     "character": "Rusty Lake Hotel Team",
     "meaning_ru": "Совместная работа, ритуал",
     "meaning_en": "",
-    "image": "images/card_45.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 46,
@@ -457,7 +457,7 @@
     "character": "Aldous Vanderboom",
     "meaning_ru": "Жадность, удержание души",
     "meaning_en": "",
-    "image": "images/card_46.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 47,
@@ -467,7 +467,7 @@
     "character": "Замороженный пациент",
     "meaning_ru": "Утрата, холод, изоляция",
     "meaning_en": "",
-    "image": "images/card_47.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 48,
@@ -477,7 +477,7 @@
     "character": "Jakob Eilander",
     "meaning_ru": "Обмен, власть над душами",
     "meaning_en": "",
-    "image": "images/card_48.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 49,
@@ -487,7 +487,7 @@
     "character": "Frank Vanderboom",
     "meaning_ru": "Терпение, ожидание результата",
     "meaning_en": "",
-    "image": "images/card_49.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 50,
@@ -497,7 +497,7 @@
     "character": "Samuel Vanderboom",
     "meaning_ru": "Алхимическая практика, мастерство",
     "meaning_en": "",
-    "image": "images/card_50.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 51,
@@ -507,7 +507,7 @@
     "character": "Ida Vanderboom",
     "meaning_ru": "Самодостаточность, зрелость",
     "meaning_en": "",
-    "image": "images/card_51.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 52,
@@ -517,7 +517,7 @@
     "character": "Семья Vanderboom",
     "meaning_ru": "Материальное и духовное наследие",
     "meaning_en": "",
-    "image": "images/card_52.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 53,
@@ -527,7 +527,7 @@
     "character": "Leonard (ребёнок)",
     "meaning_ru": "Учёба, алхимическое пробуждение",
     "meaning_en": "",
-    "image": "images/card_53.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 54,
@@ -537,7 +537,7 @@
     "character": "Mr. Deer",
     "meaning_ru": "Преданность делу, ритуальное служение",
     "meaning_en": "",
-    "image": "images/card_54.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 55,
@@ -547,7 +547,7 @@
     "character": "Caroline Eilander",
     "meaning_ru": "Земная забота, тело и плоть",
     "meaning_en": "",
-    "image": "images/card_55.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 56,
@@ -557,7 +557,7 @@
     "character": "William Vanderboom",
     "meaning_ru": "Завершение пути, Вечная жизнь",
     "meaning_en": "",
-    "image": "images/card_56.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 57,
@@ -567,7 +567,7 @@
     "character": "Команда Rusty Lake",
     "meaning_ru": "Создатели мира, наблюдатели вне системы",
     "meaning_en": "",
-    "image": "images/card_57.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 58,
@@ -577,7 +577,7 @@
     "character": "Игрок",
     "meaning_ru": "Саморефлексия, признание себя частью цикла",
     "meaning_en": "",
-    "image": "images/card_58.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 59,
@@ -587,7 +587,7 @@
     "character": "Rusty Lake как театр",
     "meaning_ru": "Мир как спектакль, иллюзия и ритуал",
     "meaning_en": "",
-    "image": "images/card_59.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 60,
@@ -597,7 +597,7 @@
     "character": "James Vanderboom",
     "meaning_ru": "Начало пути, невинность, новое воплощение",
     "meaning_en": "",
-    "image": "images/card_60.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 61,
@@ -607,7 +607,7 @@
     "character": "David Eilander / Mr. Rabbit",
     "meaning_ru": "Созидание, ритуал, сила воли",
     "meaning_en": "",
-    "image": "images/card_61.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 62,
@@ -617,7 +617,7 @@
     "character": "Ida Vanderboom",
     "meaning_ru": "Мудрость, тайна, скрытые знания",
     "meaning_en": "",
-    "image": "images/card_62.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 63,
@@ -627,7 +627,7 @@
     "character": "Rose Vanderboom",
     "meaning_ru": "Плодородие, материнство, любовь",
     "meaning_en": "",
-    "image": "images/card_63.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 64,
@@ -637,7 +637,7 @@
     "character": "Jakob Eilander / Mr. Owl",
     "meaning_ru": "Власть, структура, контроль",
     "meaning_en": "",
-    "image": "images/card_64.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 65,
@@ -647,7 +647,7 @@
     "character": "Nicholas Eilander / Mr. Deer",
     "meaning_ru": "Вера, традиции, ритуал",
     "meaning_en": "",
-    "image": "images/card_65.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 66,
@@ -657,7 +657,7 @@
     "character": "Mary Vanderboom",
     "meaning_ru": "Любовь, союз, выбор",
     "meaning_en": "",
-    "image": "images/card_66.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 67,
@@ -667,7 +667,7 @@
     "character": "Dale Vandermeer",
     "meaning_ru": "Путь, борьба, достижение цели",
     "meaning_en": "",
-    "image": "images/card_67.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 68,
@@ -677,7 +677,7 @@
     "character": "Margaret Eilander / Mrs. Pigeon",
     "meaning_ru": "Мужество, сила духа, стойкость",
     "meaning_en": "",
-    "image": "images/card_68.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 69,
@@ -687,7 +687,7 @@
     "character": "Frank Vanderboom",
     "meaning_ru": "Одиночество, самоанализ, уединение",
     "meaning_en": "",
-    "image": "images/card_69.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 70,
@@ -697,7 +697,7 @@
     "character": "Samuel Vanderboom",
     "meaning_ru": "Судьба, перемены, цикличность",
     "meaning_en": "",
-    "image": "images/card_70.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 71,
@@ -707,7 +707,7 @@
     "character": "Elizabeth Eilander / Ms. Pheasant",
     "meaning_ru": "Истина, справедливость, равновесие",
     "meaning_en": "",
-    "image": "images/card_71.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 72,
@@ -717,7 +717,7 @@
     "character": "Emma Vanderboom",
     "meaning_ru": "Жертва, изменение перспективы",
     "meaning_en": "",
-    "image": "images/card_72.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 73,
@@ -727,7 +727,7 @@
     "character": "Leonard Vanderboom",
     "meaning_ru": "Конец, трансформация, очищение",
     "meaning_en": "",
-    "image": "images/card_73.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 74,
@@ -737,7 +737,7 @@
     "character": "Gerard Eilander / Mr. Boar",
     "meaning_ru": "Баланс, алхимия, умеренность",
     "meaning_en": "",
-    "image": "images/card_74.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 75,
@@ -747,7 +747,7 @@
     "character": "Albert Vanderboom",
     "meaning_ru": "Одержимость, привязанности, тьма",
     "meaning_en": "",
-    "image": "images/card_75.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 76,
@@ -757,7 +757,7 @@
     "character": "Harvey",
     "meaning_ru": "Руины, крушение иллюзий",
     "meaning_en": "",
-    "image": "images/card_76.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 77,
@@ -767,7 +767,7 @@
     "character": "Vincent van Gogh",
     "meaning_ru": "Надежда, вдохновение, направление",
     "meaning_en": "",
-    "image": "images/card_77.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 78,
@@ -777,7 +777,7 @@
     "character": "Caroline Eilander",
     "meaning_ru": "Иллюзии, страхи, интуиция",
     "meaning_en": "",
-    "image": "images/card_78.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 79,
@@ -787,7 +787,7 @@
     "character": "Robert Hill",
     "meaning_ru": "Просветление, энергия, радость",
     "meaning_en": "",
-    "image": "images/card_79.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 80,
@@ -797,7 +797,7 @@
     "character": "Aldous Vanderboom / Mr. Crow",
     "meaning_ru": "Суд, пробуждение, итог",
     "meaning_en": "",
-    "image": "images/card_80.jpg"
+    "image": "images/placeholder.jpg"
   },
   {
     "id": 81,
@@ -807,6 +807,6 @@
     "character": "William / Laura Vanderboom",
     "meaning_ru": "Завершение, полнота, выход за пределы",
     "meaning_en": "",
-    "image": "images/card_81.jpg"
+    "image": "images/placeholder.jpg"
   }
 ]
