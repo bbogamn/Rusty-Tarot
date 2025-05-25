@@ -5,15 +5,42 @@
   <meta charset="UTF-8" />
   <title>Все карты</title>
   <link rel="stylesheet" href="css/style.css" />
-  <style>
-    .card {
-        display: inline-block;
-        margin: 10px;
-        padding: 10px;
-        border: 1px solid #ccc;
-        text-align: center;
-    }
-  </style>
+  
+<style>
+  .card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+  }
+  #popup, #overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1000;
+  }
+  #overlay {
+    background: rgba(0,0,0,0.6);
+  }
+  #popup {
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    border-radius: 8px;
+    z-index: 1001;
+  }
+  #popup-content img {
+    max-width: 100%;
+  }
+</style>
+
 </head>
 <body>
   <header>
@@ -24,573 +51,527 @@
   </header>
   <div class="container">
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ace of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(1)">
+        <img src="images/placeholder.jpg" alt="Ace of Wands" style="width:100px;"><br>
         <strong>Ace of Wands</strong><br>
-        Dale Vandermeer<br>
-        Младший / Жезлы
+        Dale Vandermeer
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Two of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(2)">
+        <img src="images/placeholder.jpg" alt="Two of Wands" style="width:100px;"><br>
         <strong>Two of Wands</strong><br>
-        James Vanderboom<br>
-        Младший / Жезлы
+        James Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Three of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(3)">
+        <img src="images/placeholder.jpg" alt="Three of Wands" style="width:100px;"><br>
         <strong>Three of Wands</strong><br>
-        Rose Vanderboom<br>
-        Младший / Жезлы
+        Rose Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Four of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(4)">
+        <img src="images/placeholder.jpg" alt="Four of Wands" style="width:100px;"><br>
         <strong>Four of Wands</strong><br>
-        Emma Vanderboom<br>
-        Младший / Жезлы
+        Emma Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Five of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(5)">
+        <img src="images/placeholder.jpg" alt="Five of Wands" style="width:100px;"><br>
         <strong>Five of Wands</strong><br>
-        Mary Vanderboom<br>
-        Младший / Жезлы
+        Mary Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Six of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(6)">
+        <img src="images/placeholder.jpg" alt="Six of Wands" style="width:100px;"><br>
         <strong>Six of Wands</strong><br>
-        Dale Vandermeer<br>
-        Младший / Жезлы
+        Dale Vandermeer
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Seven of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(7)">
+        <img src="images/placeholder.jpg" alt="Seven of Wands" style="width:100px;"><br>
         <strong>Seven of Wands</strong><br>
-        Harvey<br>
-        Младший / Жезлы
+        Harvey
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Eight of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(8)">
+        <img src="images/placeholder.jpg" alt="Eight of Wands" style="width:100px;"><br>
         <strong>Eight of Wands</strong><br>
-        Mr. Rabbit<br>
-        Младший / Жезлы
+        Mr. Rabbit
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Nine of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(9)">
+        <img src="images/placeholder.jpg" alt="Nine of Wands" style="width:100px;"><br>
         <strong>Nine of Wands</strong><br>
-        Frank Vanderboom<br>
-        Младший / Жезлы
+        Frank Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ten of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(10)">
+        <img src="images/placeholder.jpg" alt="Ten of Wands" style="width:100px;"><br>
         <strong>Ten of Wands</strong><br>
-        Samuel Vanderboom<br>
-        Младший / Жезлы
+        Samuel Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Page of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(11)">
+        <img src="images/placeholder.jpg" alt="Page of Wands" style="width:100px;"><br>
         <strong>Page of Wands</strong><br>
-        James (ребёнок)<br>
-        Младший / Жезлы
+        James (ребёнок)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Knight of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(12)">
+        <img src="images/placeholder.jpg" alt="Knight of Wands" style="width:100px;"><br>
         <strong>Knight of Wands</strong><br>
-        Mr. Crow<br>
-        Младший / Жезлы
+        Mr. Crow
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Queen of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(13)">
+        <img src="images/placeholder.jpg" alt="Queen of Wands" style="width:100px;"><br>
         <strong>Queen of Wands</strong><br>
-        Margaret Eilander<br>
-        Младший / Жезлы
+        Margaret Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="King of Wands" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(14)">
+        <img src="images/placeholder.jpg" alt="King of Wands" style="width:100px;"><br>
         <strong>King of Wands</strong><br>
-        Leonard Vanderboom<br>
-        Младший / Жезлы
+        Leonard Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ace of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(15)">
+        <img src="images/placeholder.jpg" alt="Ace of Cups" style="width:100px;"><br>
         <strong>Ace of Cups</strong><br>
-        Rose Vanderboom (юная)<br>
-        Младший / Кубки
+        Rose Vanderboom (юная)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Two of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(16)">
+        <img src="images/placeholder.jpg" alt="Two of Cups" style="width:100px;"><br>
         <strong>Two of Cups</strong><br>
-        Mary & Frank<br>
-        Младший / Кубки
+        Mary & Frank
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Three of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(17)">
+        <img src="images/placeholder.jpg" alt="Three of Cups" style="width:100px;"><br>
         <strong>Three of Cups</strong><br>
-        Сёстры Vanderboom<br>
-        Младший / Кубки
+        Сёстры Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Four of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(18)">
+        <img src="images/placeholder.jpg" alt="Four of Cups" style="width:100px;"><br>
         <strong>Four of Cups</strong><br>
-        Frank Vanderboom<br>
-        Младший / Кубки
+        Frank Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Five of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(19)">
+        <img src="images/placeholder.jpg" alt="Five of Cups" style="width:100px;"><br>
         <strong>Five of Cups</strong><br>
-        Mary Vanderboom<br>
-        Младший / Кубки
+        Mary Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Six of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(20)">
+        <img src="images/placeholder.jpg" alt="Six of Cups" style="width:100px;"><br>
         <strong>Six of Cups</strong><br>
-        James (ребёнок)<br>
-        Младший / Кубки
+        James (ребёнок)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Seven of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(21)">
+        <img src="images/placeholder.jpg" alt="Seven of Cups" style="width:100px;"><br>
         <strong>Seven of Cups</strong><br>
-        Caroline Eilander<br>
-        Младший / Кубки
+        Caroline Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Eight of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(22)">
+        <img src="images/placeholder.jpg" alt="Eight of Cups" style="width:100px;"><br>
         <strong>Eight of Cups</strong><br>
-        Emma Vanderboom<br>
-        Младший / Кубки
+        Emma Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Nine of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(23)">
+        <img src="images/placeholder.jpg" alt="Nine of Cups" style="width:100px;"><br>
         <strong>Nine of Cups</strong><br>
-        Rose Vanderboom (зрелая)<br>
-        Младший / Кубки
+        Rose Vanderboom (зрелая)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ten of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(24)">
+        <img src="images/placeholder.jpg" alt="Ten of Cups" style="width:100px;"><br>
         <strong>Ten of Cups</strong><br>
-        Семья Vanderboom<br>
-        Младший / Кубки
+        Семья Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Page of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(25)">
+        <img src="images/placeholder.jpg" alt="Page of Cups" style="width:100px;"><br>
         <strong>Page of Cups</strong><br>
-        Emma (девочка)<br>
-        Младший / Кубки
+        Emma (девочка)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Knight of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(26)">
+        <img src="images/placeholder.jpg" alt="Knight of Cups" style="width:100px;"><br>
         <strong>Knight of Cups</strong><br>
-        Frank (молодой)<br>
-        Младший / Кубки
+        Frank (молодой)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Queen of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(27)">
+        <img src="images/placeholder.jpg" alt="Queen of Cups" style="width:100px;"><br>
         <strong>Queen of Cups</strong><br>
-        Mary Vanderboom<br>
-        Младший / Кубки
+        Mary Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="King of Cups" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(28)">
+        <img src="images/placeholder.jpg" alt="King of Cups" style="width:100px;"><br>
         <strong>King of Cups</strong><br>
-        Samuel Vanderboom<br>
-        Младший / Кубки
+        Samuel Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ace of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(29)">
+        <img src="images/placeholder.jpg" alt="Ace of Swords" style="width:100px;"><br>
         <strong>Ace of Swords</strong><br>
-        Mr. Owl<br>
-        Младший / Мечи
+        Mr. Owl
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Two of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(30)">
+        <img src="images/placeholder.jpg" alt="Two of Swords" style="width:100px;"><br>
         <strong>Two of Swords</strong><br>
-        Elizabeth Eilander<br>
-        Младший / Мечи
+        Elizabeth Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Three of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(31)">
+        <img src="images/placeholder.jpg" alt="Three of Swords" style="width:100px;"><br>
         <strong>Three of Swords</strong><br>
-        Caroline Eilander<br>
-        Младший / Мечи
+        Caroline Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Four of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(32)">
+        <img src="images/placeholder.jpg" alt="Four of Swords" style="width:100px;"><br>
         <strong>Four of Swords</strong><br>
-        Nicholas Eilander<br>
-        Младший / Мечи
+        Nicholas Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Five of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(33)">
+        <img src="images/placeholder.jpg" alt="Five of Swords" style="width:100px;"><br>
         <strong>Five of Swords</strong><br>
-        Mr. Rabbit<br>
-        Младший / Мечи
+        Mr. Rabbit
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Six of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(34)">
+        <img src="images/placeholder.jpg" alt="Six of Swords" style="width:100px;"><br>
         <strong>Six of Swords</strong><br>
-        Пациент клиники<br>
-        Младший / Мечи
+        Пациент клиники
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Seven of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(35)">
+        <img src="images/placeholder.jpg" alt="Seven of Swords" style="width:100px;"><br>
         <strong>Seven of Swords</strong><br>
-        Harvey<br>
-        Младший / Мечи
+        Harvey
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Eight of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(36)">
+        <img src="images/placeholder.jpg" alt="Eight of Swords" style="width:100px;"><br>
         <strong>Eight of Swords</strong><br>
-        Emma Vanderboom<br>
-        Младший / Мечи
+        Emma Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Nine of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(37)">
+        <img src="images/placeholder.jpg" alt="Nine of Swords" style="width:100px;"><br>
         <strong>Nine of Swords</strong><br>
-        James (кошмары)<br>
-        Младший / Мечи
+        James (кошмары)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ten of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(38)">
+        <img src="images/placeholder.jpg" alt="Ten of Swords" style="width:100px;"><br>
         <strong>Ten of Swords</strong><br>
-        Mary (гибель)<br>
-        Младший / Мечи
+        Mary (гибель)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Page of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(39)">
+        <img src="images/placeholder.jpg" alt="Page of Swords" style="width:100px;"><br>
         <strong>Page of Swords</strong><br>
-        Dale (новичок)<br>
-        Младший / Мечи
+        Dale (новичок)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Knight of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(40)">
+        <img src="images/placeholder.jpg" alt="Knight of Swords" style="width:100px;"><br>
         <strong>Knight of Swords</strong><br>
-        Dale (в ярости)<br>
-        Младший / Мечи
+        Dale (в ярости)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Queen of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(41)">
+        <img src="images/placeholder.jpg" alt="Queen of Swords" style="width:100px;"><br>
         <strong>Queen of Swords</strong><br>
-        Ida Vanderboom<br>
-        Младший / Мечи
+        Ida Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="King of Swords" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(42)">
+        <img src="images/placeholder.jpg" alt="King of Swords" style="width:100px;"><br>
         <strong>King of Swords</strong><br>
-        Albert Vanderboom<br>
-        Младший / Мечи
+        Albert Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ace of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(43)">
+        <img src="images/placeholder.jpg" alt="Ace of Pentacles" style="width:100px;"><br>
         <strong>Ace of Pentacles</strong><br>
-        Leonard Vanderboom<br>
-        Младший / Пентакли
+        Leonard Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Two of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(44)">
+        <img src="images/placeholder.jpg" alt="Two of Pentacles" style="width:100px;"><br>
         <strong>Two of Pentacles</strong><br>
-        Gerard Eilander<br>
-        Младший / Пентакли
+        Gerard Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Three of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(45)">
+        <img src="images/placeholder.jpg" alt="Three of Pentacles" style="width:100px;"><br>
         <strong>Three of Pentacles</strong><br>
-        Rusty Lake Hotel Team<br>
-        Младший / Пентакли
+        Rusty Lake Hotel Team
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Four of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(46)">
+        <img src="images/placeholder.jpg" alt="Four of Pentacles" style="width:100px;"><br>
         <strong>Four of Pentacles</strong><br>
-        Aldous Vanderboom<br>
-        Младший / Пентакли
+        Aldous Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Five of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(47)">
+        <img src="images/placeholder.jpg" alt="Five of Pentacles" style="width:100px;"><br>
         <strong>Five of Pentacles</strong><br>
-        Замороженный пациент<br>
-        Младший / Пентакли
+        Замороженный пациент
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Six of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(48)">
+        <img src="images/placeholder.jpg" alt="Six of Pentacles" style="width:100px;"><br>
         <strong>Six of Pentacles</strong><br>
-        Jakob Eilander<br>
-        Младший / Пентакли
+        Jakob Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Seven of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(49)">
+        <img src="images/placeholder.jpg" alt="Seven of Pentacles" style="width:100px;"><br>
         <strong>Seven of Pentacles</strong><br>
-        Frank Vanderboom<br>
-        Младший / Пентакли
+        Frank Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Eight of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(50)">
+        <img src="images/placeholder.jpg" alt="Eight of Pentacles" style="width:100px;"><br>
         <strong>Eight of Pentacles</strong><br>
-        Samuel Vanderboom<br>
-        Младший / Пентакли
+        Samuel Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Nine of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(51)">
+        <img src="images/placeholder.jpg" alt="Nine of Pentacles" style="width:100px;"><br>
         <strong>Nine of Pentacles</strong><br>
-        Ida Vanderboom<br>
-        Младший / Пентакли
+        Ida Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Ten of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(52)">
+        <img src="images/placeholder.jpg" alt="Ten of Pentacles" style="width:100px;"><br>
         <strong>Ten of Pentacles</strong><br>
-        Семья Vanderboom<br>
-        Младший / Пентакли
+        Семья Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Page of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(53)">
+        <img src="images/placeholder.jpg" alt="Page of Pentacles" style="width:100px;"><br>
         <strong>Page of Pentacles</strong><br>
-        Leonard (ребёнок)<br>
-        Младший / Пентакли
+        Leonard (ребёнок)
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Knight of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(54)">
+        <img src="images/placeholder.jpg" alt="Knight of Pentacles" style="width:100px;"><br>
         <strong>Knight of Pentacles</strong><br>
-        Mr. Deer<br>
-        Младший / Пентакли
+        Mr. Deer
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Queen of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(55)">
+        <img src="images/placeholder.jpg" alt="Queen of Pentacles" style="width:100px;"><br>
         <strong>Queen of Pentacles</strong><br>
-        Caroline Eilander<br>
-        Младший / Пентакли
+        Caroline Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="King of Pentacles" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(56)">
+        <img src="images/placeholder.jpg" alt="King of Pentacles" style="width:100px;"><br>
         <strong>King of Pentacles</strong><br>
-        William Vanderboom<br>
-        Младший / Пентакли
+        William Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Architect" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(57)">
+        <img src="images/placeholder.jpg" alt="The Architect" style="width:100px;"><br>
         <strong>The Architect</strong><br>
-        Команда Rusty Lake<br>
-        Мета / nan
+        Команда Rusty Lake
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Mirror" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(58)">
+        <img src="images/placeholder.jpg" alt="The Mirror" style="width:100px;"><br>
         <strong>The Mirror</strong><br>
-        Игрок<br>
-        Мета / nan
+        Игрок
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Stage" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(59)">
+        <img src="images/placeholder.jpg" alt="The Stage" style="width:100px;"><br>
         <strong>The Stage</strong><br>
-        Rusty Lake как театр<br>
-        Мета / nan
+        Rusty Lake как театр
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Fool" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(60)">
+        <img src="images/placeholder.jpg" alt="The Fool" style="width:100px;"><br>
         <strong>The Fool</strong><br>
-        James Vanderboom<br>
-        Старший / nan
+        James Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Magician" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(61)">
+        <img src="images/placeholder.jpg" alt="The Magician" style="width:100px;"><br>
         <strong>The Magician</strong><br>
-        David Eilander / Mr. Rabbit<br>
-        Старший / nan
+        David Eilander / Mr. Rabbit
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The High Priestess" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(62)">
+        <img src="images/placeholder.jpg" alt="The High Priestess" style="width:100px;"><br>
         <strong>The High Priestess</strong><br>
-        Ida Vanderboom<br>
-        Старший / nan
+        Ida Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Empress" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(63)">
+        <img src="images/placeholder.jpg" alt="The Empress" style="width:100px;"><br>
         <strong>The Empress</strong><br>
-        Rose Vanderboom<br>
-        Старший / nan
+        Rose Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Emperor" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(64)">
+        <img src="images/placeholder.jpg" alt="The Emperor" style="width:100px;"><br>
         <strong>The Emperor</strong><br>
-        Jakob Eilander / Mr. Owl<br>
-        Старший / nan
+        Jakob Eilander / Mr. Owl
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Hierophant" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(65)">
+        <img src="images/placeholder.jpg" alt="The Hierophant" style="width:100px;"><br>
         <strong>The Hierophant</strong><br>
-        Nicholas Eilander / Mr. Deer<br>
-        Старший / nan
+        Nicholas Eilander / Mr. Deer
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Lovers" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(66)">
+        <img src="images/placeholder.jpg" alt="The Lovers" style="width:100px;"><br>
         <strong>The Lovers</strong><br>
-        Mary Vanderboom<br>
-        Старший / nan
+        Mary Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Chariot" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(67)">
+        <img src="images/placeholder.jpg" alt="The Chariot" style="width:100px;"><br>
         <strong>The Chariot</strong><br>
-        Dale Vandermeer<br>
-        Старший / nan
+        Dale Vandermeer
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Strength" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(68)">
+        <img src="images/placeholder.jpg" alt="Strength" style="width:100px;"><br>
         <strong>Strength</strong><br>
-        Margaret Eilander / Mrs. Pigeon<br>
-        Старший / nan
+        Margaret Eilander / Mrs. Pigeon
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Hermit" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(69)">
+        <img src="images/placeholder.jpg" alt="The Hermit" style="width:100px;"><br>
         <strong>The Hermit</strong><br>
-        Frank Vanderboom<br>
-        Старший / nan
+        Frank Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Wheel of Fortune" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(70)">
+        <img src="images/placeholder.jpg" alt="The Wheel of Fortune" style="width:100px;"><br>
         <strong>The Wheel of Fortune</strong><br>
-        Samuel Vanderboom<br>
-        Старший / nan
+        Samuel Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Justice" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(71)">
+        <img src="images/placeholder.jpg" alt="Justice" style="width:100px;"><br>
         <strong>Justice</strong><br>
-        Elizabeth Eilander / Ms. Pheasant<br>
-        Старший / nan
+        Elizabeth Eilander / Ms. Pheasant
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Hanged Man" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(72)">
+        <img src="images/placeholder.jpg" alt="The Hanged Man" style="width:100px;"><br>
         <strong>The Hanged Man</strong><br>
-        Emma Vanderboom<br>
-        Старший / nan
+        Emma Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Death" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(73)">
+        <img src="images/placeholder.jpg" alt="Death" style="width:100px;"><br>
         <strong>Death</strong><br>
-        Leonard Vanderboom<br>
-        Старший / nan
+        Leonard Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Temperance" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(74)">
+        <img src="images/placeholder.jpg" alt="Temperance" style="width:100px;"><br>
         <strong>Temperance</strong><br>
-        Gerard Eilander / Mr. Boar<br>
-        Старший / nan
+        Gerard Eilander / Mr. Boar
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Devil" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(75)">
+        <img src="images/placeholder.jpg" alt="The Devil" style="width:100px;"><br>
         <strong>The Devil</strong><br>
-        Albert Vanderboom<br>
-        Старший / nan
+        Albert Vanderboom
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Tower" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(76)">
+        <img src="images/placeholder.jpg" alt="The Tower" style="width:100px;"><br>
         <strong>The Tower</strong><br>
-        Harvey<br>
-        Старший / nan
+        Harvey
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Star" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(77)">
+        <img src="images/placeholder.jpg" alt="The Star" style="width:100px;"><br>
         <strong>The Star</strong><br>
-        Vincent van Gogh<br>
-        Старший / nan
+        Vincent van Gogh
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Moon" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(78)">
+        <img src="images/placeholder.jpg" alt="The Moon" style="width:100px;"><br>
         <strong>The Moon</strong><br>
-        Caroline Eilander<br>
-        Старший / nan
+        Caroline Eilander
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The Sun" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(79)">
+        <img src="images/placeholder.jpg" alt="The Sun" style="width:100px;"><br>
         <strong>The Sun</strong><br>
-        Robert Hill<br>
-        Старший / nan
+        Robert Hill
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="Judgement" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(80)">
+        <img src="images/placeholder.jpg" alt="Judgement" style="width:100px;"><br>
         <strong>Judgement</strong><br>
-        Aldous Vanderboom / Mr. Crow<br>
-        Старший / nan
+        Aldous Vanderboom / Mr. Crow
     </div>
     
-    <div class="card">
-        <img src="images/placeholder.jpg" alt="The World" style="width:150px;"><br>
+    <div class="card" onclick="showPopup(81)">
+        <img src="images/placeholder.jpg" alt="The World" style="width:100px;"><br>
         <strong>The World</strong><br>
-        William / Laura Vanderboom<br>
-        Старший / nan
+        William / Laura Vanderboom
     </div>
     
   </div>
+
+  <!-- Popup -->
+  <div id="overlay" onclick="hidePopup()"></div>
+  <div id="popup">
+    <div id="popup-content"></div>
+    <button onclick="hidePopup()">Закрыть</button>
+  </div>
+
+  <script type="application/json" id="cardData">[{"id": 1, "arcana": "Младший", "suit": "Жезлы", "title": "Ace of Wands", "character": "Dale Vandermeer", "meaning_ru": "Начало действия, воля к раскрытию", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 2, "arcana": "Младший", "suit": "Жезлы", "title": "Two of Wands", "character": "James Vanderboom", "meaning_ru": "Планирование, выбор пути", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 3, "arcana": "Младший", "suit": "Жезлы", "title": "Three of Wands", "character": "Rose Vanderboom", "meaning_ru": "Надежда, рост, перспектива", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 4, "arcana": "Младший", "suit": "Жезлы", "title": "Four of Wands", "character": "Emma Vanderboom", "meaning_ru": "Краткий мир, семейное тепло", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 5, "arcana": "Младший", "suit": "Жезлы", "title": "Five of Wands", "character": "Mary Vanderboom", "meaning_ru": "Конфликт страстей, хаос в семье", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 6, "arcana": "Младший", "suit": "Жезлы", "title": "Six of Wands", "character": "Dale Vandermeer", "meaning_ru": "Победа, признание, продвижение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 7, "arcana": "Младший", "suit": "Жезлы", "title": "Seven of Wands", "character": "Harvey", "meaning_ru": "Сопротивление, защита своего", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 8, "arcana": "Младший", "suit": "Жезлы", "title": "Eight of Wands", "character": "Mr. Rabbit", "meaning_ru": "Быстрые перемены, внезапность", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 9, "arcana": "Младший", "suit": "Жезлы", "title": "Nine of Wands", "character": "Frank Vanderboom", "meaning_ru": "Испытание, стойкость", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 10, "arcana": "Младший", "suit": "Жезлы", "title": "Ten of Wands", "character": "Samuel Vanderboom", "meaning_ru": "Бремя знаний, перегрузка", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 11, "arcana": "Младший", "suit": "Жезлы", "title": "Page of Wands", "character": "James (ребёнок)", "meaning_ru": "Любознательность, начало пути", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 12, "arcana": "Младший", "suit": "Жезлы", "title": "Knight of Wands", "character": "Mr. Crow", "meaning_ru": "Импульс, стремление вперёд", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 13, "arcana": "Младший", "suit": "Жезлы", "title": "Queen of Wands", "character": "Margaret Eilander", "meaning_ru": "Сила духа, независимость", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 14, "arcana": "Младший", "suit": "Жезлы", "title": "King of Wands", "character": "Leonard Vanderboom", "meaning_ru": "Властность, огненная воля", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 15, "arcana": "Младший", "suit": "Кубки", "title": "Ace of Cups", "character": "Rose Vanderboom (юная)", "meaning_ru": "Начало чувств, любовь, рождение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 16, "arcana": "Младший", "suit": "Кубки", "title": "Two of Cups", "character": "Mary & Frank", "meaning_ru": "Романтический союз", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 17, "arcana": "Младший", "suit": "Кубки", "title": "Three of Cups", "character": "Сёстры Vanderboom", "meaning_ru": "Радость, семейное единение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 18, "arcana": "Младший", "suit": "Кубки", "title": "Four of Cups", "character": "Frank Vanderboom", "meaning_ru": "Отчуждение, разочарование", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 19, "arcana": "Младший", "suit": "Кубки", "title": "Five of Cups", "character": "Mary Vanderboom", "meaning_ru": "Печаль, потеря", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 20, "arcana": "Младший", "suit": "Кубки", "title": "Six of Cups", "character": "James (ребёнок)", "meaning_ru": "Ностальгия, воспоминания", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 21, "arcana": "Младший", "suit": "Кубки", "title": "Seven of Cups", "character": "Caroline Eilander", "meaning_ru": "Иллюзии, выбор", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 22, "arcana": "Младший", "suit": "Кубки", "title": "Eight of Cups", "character": "Emma Vanderboom", "meaning_ru": "Уход, отказ от прошлого", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 23, "arcana": "Младший", "suit": "Кубки", "title": "Nine of Cups", "character": "Rose Vanderboom (зрелая)", "meaning_ru": "Эмоциональное удовлетворение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 24, "arcana": "Младший", "suit": "Кубки", "title": "Ten of Cups", "character": "Семья Vanderboom", "meaning_ru": "Гармония, завершение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 25, "arcana": "Младший", "suit": "Кубки", "title": "Page of Cups", "character": "Emma (девочка)", "meaning_ru": "Чувствительность, интуиция", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 26, "arcana": "Младший", "suit": "Кубки", "title": "Knight of Cups", "character": "Frank (молодой)", "meaning_ru": "Идеализм, стремление", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 27, "arcana": "Младший", "suit": "Кубки", "title": "Queen of Cups", "character": "Mary Vanderboom", "meaning_ru": "Глубокое чувство, жертвенность", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 28, "arcana": "Младший", "suit": "Кубки", "title": "King of Cups", "character": "Samuel Vanderboom", "meaning_ru": "Эмоциональный контроль, алхимия сердца", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 29, "arcana": "Младший", "suit": "Мечи", "title": "Ace of Swords", "character": "Mr. Owl", "meaning_ru": "Проницательность, новая идея", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 30, "arcana": "Младший", "suit": "Мечи", "title": "Two of Swords", "character": "Elizabeth Eilander", "meaning_ru": "Раздвоенность, неведение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 31, "arcana": "Младший", "suit": "Мечи", "title": "Three of Swords", "character": "Caroline Eilander", "meaning_ru": "Сердечная боль, страдание", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 32, "arcana": "Младший", "suit": "Мечи", "title": "Four of Swords", "character": "Nicholas Eilander", "meaning_ru": "Покой, отстранённость", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 33, "arcana": "Младший", "suit": "Мечи", "title": "Five of Swords", "character": "Mr. Rabbit", "meaning_ru": "Жестокость, манипуляции", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 34, "arcana": "Младший", "suit": "Мечи", "title": "Six of Swords", "character": "Пациент клиники", "meaning_ru": "Переход, бегство от боли", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 35, "arcana": "Младший", "suit": "Мечи", "title": "Seven of Swords", "character": "Harvey", "meaning_ru": "Хитрость, ложь", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 36, "arcana": "Младший", "suit": "Мечи", "title": "Eight of Swords", "character": "Emma Vanderboom", "meaning_ru": "Плен разума, ограничения", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 37, "arcana": "Младший", "suit": "Мечи", "title": "Nine of Swords", "character": "James (кошмары)", "meaning_ru": "Тревога, муки совести", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 38, "arcana": "Младший", "suit": "Мечи", "title": "Ten of Swords", "character": "Mary (гибель)", "meaning_ru": "Полное разрушение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 39, "arcana": "Младший", "suit": "Мечи", "title": "Page of Swords", "character": "Dale (новичок)", "meaning_ru": "Любопытство, наблюдение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 40, "arcana": "Младший", "suit": "Мечи", "title": "Knight of Swords", "character": "Dale (в ярости)", "meaning_ru": "Решимость, стремительный бросок", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 41, "arcana": "Младший", "suit": "Мечи", "title": "Queen of Swords", "character": "Ida Vanderboom", "meaning_ru": "Интеллект, боль через знание", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 42, "arcana": "Младший", "suit": "Мечи", "title": "King of Swords", "character": "Albert Vanderboom", "meaning_ru": "Холодная логика, контроль", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 43, "arcana": "Младший", "suit": "Пентакли", "title": "Ace of Pentacles", "character": "Leonard Vanderboom", "meaning_ru": "Начало алхимии, материальный путь", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 44, "arcana": "Младший", "suit": "Пентакли", "title": "Two of Pentacles", "character": "Gerard Eilander", "meaning_ru": "Баланс сил, алхимическое равновесие", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 45, "arcana": "Младший", "suit": "Пентакли", "title": "Three of Pentacles", "character": "Rusty Lake Hotel Team", "meaning_ru": "Совместная работа, ритуал", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 46, "arcana": "Младший", "suit": "Пентакли", "title": "Four of Pentacles", "character": "Aldous Vanderboom", "meaning_ru": "Жадность, удержание души", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 47, "arcana": "Младший", "suit": "Пентакли", "title": "Five of Pentacles", "character": "Замороженный пациент", "meaning_ru": "Утрата, холод, изоляция", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 48, "arcana": "Младший", "suit": "Пентакли", "title": "Six of Pentacles", "character": "Jakob Eilander", "meaning_ru": "Обмен, власть над душами", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 49, "arcana": "Младший", "suit": "Пентакли", "title": "Seven of Pentacles", "character": "Frank Vanderboom", "meaning_ru": "Терпение, ожидание результата", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 50, "arcana": "Младший", "suit": "Пентакли", "title": "Eight of Pentacles", "character": "Samuel Vanderboom", "meaning_ru": "Алхимическая практика, мастерство", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 51, "arcana": "Младший", "suit": "Пентакли", "title": "Nine of Pentacles", "character": "Ida Vanderboom", "meaning_ru": "Самодостаточность, зрелость", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 52, "arcana": "Младший", "suit": "Пентакли", "title": "Ten of Pentacles", "character": "Семья Vanderboom", "meaning_ru": "Материальное и духовное наследие", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 53, "arcana": "Младший", "suit": "Пентакли", "title": "Page of Pentacles", "character": "Leonard (ребёнок)", "meaning_ru": "Учёба, алхимическое пробуждение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 54, "arcana": "Младший", "suit": "Пентакли", "title": "Knight of Pentacles", "character": "Mr. Deer", "meaning_ru": "Преданность делу, ритуальное служение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 55, "arcana": "Младший", "suit": "Пентакли", "title": "Queen of Pentacles", "character": "Caroline Eilander", "meaning_ru": "Земная забота, тело и плоть", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 56, "arcana": "Младший", "suit": "Пентакли", "title": "King of Pentacles", "character": "William Vanderboom", "meaning_ru": "Завершение пути, Вечная жизнь", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 57, "arcana": "Мета", "suit": NaN, "title": "The Architect", "character": "Команда Rusty Lake", "meaning_ru": "Создатели мира, наблюдатели вне системы", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 58, "arcana": "Мета", "suit": NaN, "title": "The Mirror", "character": "Игрок", "meaning_ru": "Саморефлексия, признание себя частью цикла", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 59, "arcana": "Мета", "suit": NaN, "title": "The Stage", "character": "Rusty Lake как театр", "meaning_ru": "Мир как спектакль, иллюзия и ритуал", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 60, "arcana": "Старший", "suit": NaN, "title": "The Fool", "character": "James Vanderboom", "meaning_ru": "Начало пути, невинность, новое воплощение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 61, "arcana": "Старший", "suit": NaN, "title": "The Magician", "character": "David Eilander / Mr. Rabbit", "meaning_ru": "Созидание, ритуал, сила воли", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 62, "arcana": "Старший", "suit": NaN, "title": "The High Priestess", "character": "Ida Vanderboom", "meaning_ru": "Мудрость, тайна, скрытые знания", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 63, "arcana": "Старший", "suit": NaN, "title": "The Empress", "character": "Rose Vanderboom", "meaning_ru": "Плодородие, материнство, любовь", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 64, "arcana": "Старший", "suit": NaN, "title": "The Emperor", "character": "Jakob Eilander / Mr. Owl", "meaning_ru": "Власть, структура, контроль", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 65, "arcana": "Старший", "suit": NaN, "title": "The Hierophant", "character": "Nicholas Eilander / Mr. Deer", "meaning_ru": "Вера, традиции, ритуал", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 66, "arcana": "Старший", "suit": NaN, "title": "The Lovers", "character": "Mary Vanderboom", "meaning_ru": "Любовь, союз, выбор", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 67, "arcana": "Старший", "suit": NaN, "title": "The Chariot", "character": "Dale Vandermeer", "meaning_ru": "Путь, борьба, достижение цели", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 68, "arcana": "Старший", "suit": NaN, "title": "Strength", "character": "Margaret Eilander / Mrs. Pigeon", "meaning_ru": "Мужество, сила духа, стойкость", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 69, "arcana": "Старший", "suit": NaN, "title": "The Hermit", "character": "Frank Vanderboom", "meaning_ru": "Одиночество, самоанализ, уединение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 70, "arcana": "Старший", "suit": NaN, "title": "The Wheel of Fortune", "character": "Samuel Vanderboom", "meaning_ru": "Судьба, перемены, цикличность", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 71, "arcana": "Старший", "suit": NaN, "title": "Justice", "character": "Elizabeth Eilander / Ms. Pheasant", "meaning_ru": "Истина, справедливость, равновесие", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 72, "arcana": "Старший", "suit": NaN, "title": "The Hanged Man", "character": "Emma Vanderboom", "meaning_ru": "Жертва, изменение перспективы", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 73, "arcana": "Старший", "suit": NaN, "title": "Death", "character": "Leonard Vanderboom", "meaning_ru": "Конец, трансформация, очищение", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 74, "arcana": "Старший", "suit": NaN, "title": "Temperance", "character": "Gerard Eilander / Mr. Boar", "meaning_ru": "Баланс, алхимия, умеренность", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 75, "arcana": "Старший", "suit": NaN, "title": "The Devil", "character": "Albert Vanderboom", "meaning_ru": "Одержимость, привязанности, тьма", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 76, "arcana": "Старший", "suit": NaN, "title": "The Tower", "character": "Harvey", "meaning_ru": "Руины, крушение иллюзий", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 77, "arcana": "Старший", "suit": NaN, "title": "The Star", "character": "Vincent van Gogh", "meaning_ru": "Надежда, вдохновение, направление", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 78, "arcana": "Старший", "suit": NaN, "title": "The Moon", "character": "Caroline Eilander", "meaning_ru": "Иллюзии, страхи, интуиция", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 79, "arcana": "Старший", "suit": NaN, "title": "The Sun", "character": "Robert Hill", "meaning_ru": "Просветление, энергия, радость", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 80, "arcana": "Старший", "suit": NaN, "title": "Judgement", "character": "Aldous Vanderboom / Mr. Crow", "meaning_ru": "Суд, пробуждение, итог", "meaning_en": "", "image": "images/placeholder.jpg"}, {"id": 81, "arcana": "Старший", "suit": NaN, "title": "The World", "character": "William / Laura Vanderboom", "meaning_ru": "Завершение, полнота, выход за пределы", "meaning_en": "", "image": "images/placeholder.jpg"}]</script>
+  
+<script>
+function showPopup(cardId) {
+  const popup = document.getElementById("popup");
+  const overlay = document.getElementById("overlay");
+  const content = document.getElementById("popup-content");
+  const card = cards.find(c => c.id === cardId);
+  content.innerHTML = `
+    <h2>${card.title}</h2>
+    <img src="${card.image}" alt="${card.title}" style="width:150px;"><br>
+    <strong>Персонаж:</strong> ${card.character}<br>
+    <strong>Аркан:</strong> ${card.arcana}<br>
+    <strong>Масть:</strong> ${card.suit}<br>
+    <strong>Значение (RU):</strong> ${card.meaning_ru}<br>
+    <strong>Meaning (EN):</strong> ${card.meaning_en}
+  `;
+  popup.style.display = "block";
+  overlay.style.display = "block";
+}
+function hidePopup() {
+  document.getElementById("popup").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
+}
+const cards = JSON.parse(document.getElementById("cardData").textContent);
+</script>
+
 </body>
 </html>
