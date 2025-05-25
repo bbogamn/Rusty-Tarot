@@ -3,11 +3,10 @@
     "name": "The Fool",
     "arcana": "major",
     "keywords": [
-      "beginnings",
-      "innocence"
+      "beginnings"
     ],
-    "upright": "A fresh start, unlimited potential.",
-    "reversed": "Holding back, recklessness.",
+    "upright": "Start.",
+    "reversed": "Risk.",
     "img": "major/00.webp"
   }
 }
