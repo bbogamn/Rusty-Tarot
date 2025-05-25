@@ -1,1 +1,0 @@
-Place your favicon and shared images here.
