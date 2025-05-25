@@ -1,1 +1,0 @@
-export function renderCardList(){console.log('preview');}
