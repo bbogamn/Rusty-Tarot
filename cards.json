@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Ace of Wands",
+    "character": "Dale Vandermeer",
+    "meaning_ru": "Начало действия, воля к раскрытию",
+    "meaning_en": "",
+    "image": "images/card_1.jpg"
+  },
+  {
+    "id": 2,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Two of Wands",
+    "character": "James Vanderboom",
+    "meaning_ru": "Планирование, выбор пути",
+    "meaning_en": "",
+    "image": "images/card_2.jpg"
+  },
+  {
+    "id": 3,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Three of Wands",
+    "character": "Rose Vanderboom",
+    "meaning_ru": "Надежда, рост, перспектива",
+    "meaning_en": "",
+    "image": "images/card_3.jpg"
+  },
+  {
+    "id": 4,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Four of Wands",
+    "character": "Emma Vanderboom",
+    "meaning_ru": "Краткий мир, семейное тепло",
+    "meaning_en": "",
+    "image": "images/card_4.jpg"
+  },
+  {
+    "id": 5,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Five of Wands",
+    "character": "Mary Vanderboom",
+    "meaning_ru": "Конфликт страстей, хаос в семье",
+    "meaning_en": "",
+    "image": "images/card_5.jpg"
+  },
+  {
+    "id": 6,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Six of Wands",
+    "character": "Dale Vandermeer",
+    "meaning_ru": "Победа, признание, продвижение",
+    "meaning_en": "",
+    "image": "images/card_6.jpg"
+  },
+  {
+    "id": 7,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Seven of Wands",
+    "character": "Harvey",
+    "meaning_ru": "Сопротивление, защита своего",
+    "meaning_en": "",
+    "image": "images/card_7.jpg"
+  },
+  {
+    "id": 8,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Eight of Wands",
+    "character": "Mr. Rabbit",
+    "meaning_ru": "Быстрые перемены, внезапность",
+    "meaning_en": "",
+    "image": "images/card_8.jpg"
+  },
+  {
+    "id": 9,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Nine of Wands",
+    "character": "Frank Vanderboom",
+    "meaning_ru": "Испытание, стойкость",
+    "meaning_en": "",
+    "image": "images/card_9.jpg"
+  },
+  {
+    "id": 10,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Ten of Wands",
+    "character": "Samuel Vanderboom",
+    "meaning_ru": "Бремя знаний, перегрузка",
+    "meaning_en": "",
+    "image": "images/card_10.jpg"
+  },
+  {
+    "id": 11,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Page of Wands",
+    "character": "James (ребёнок)",
+    "meaning_ru": "Любознательность, начало пути",
+    "meaning_en": "",
+    "image": "images/card_11.jpg"
+  },
+  {
+    "id": 12,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Knight of Wands",
+    "character": "Mr. Crow",
+    "meaning_ru": "Импульс, стремление вперёд",
+    "meaning_en": "",
+    "image": "images/card_12.jpg"
+  },
+  {
+    "id": 13,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "Queen of Wands",
+    "character": "Margaret Eilander",
+    "meaning_ru": "Сила духа, независимость",
+    "meaning_en": "",
+    "image": "images/card_13.jpg"
+  },
+  {
+    "id": 14,
+    "arcana": "Младший",
+    "suit": "Жезлы",
+    "title": "King of Wands",
+    "character": "Leonard Vanderboom",
+    "meaning_ru": "Властность, огненная воля",
+    "meaning_en": "",
+    "image": "images/card_14.jpg"
+  },
+  {
+    "id": 15,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Ace of Cups",
+    "character": "Rose Vanderboom (юная)",
+    "meaning_ru": "Начало чувств, любовь, рождение",
+    "meaning_en": "",
+    "image": "images/card_15.jpg"
+  },
+  {
+    "id": 16,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Two of Cups",
+    "character": "Mary & Frank",
+    "meaning_ru": "Романтический союз",
+    "meaning_en": "",
+    "image": "images/card_16.jpg"
+  },
+  {
+    "id": 17,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Three of Cups",
+    "character": "Сёстры Vanderboom",
+    "meaning_ru": "Радость, семейное единение",
+    "meaning_en": "",
+    "image": "images/card_17.jpg"
+  },
+  {
+    "id": 18,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Four of Cups",
+    "character": "Frank Vanderboom",
+    "meaning_ru": "Отчуждение, разочарование",
+    "meaning_en": "",
+    "image": "images/card_18.jpg"
+  },
+  {
+    "id": 19,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Five of Cups",
+    "character": "Mary Vanderboom",
+    "meaning_ru": "Печаль, потеря",
+    "meaning_en": "",
+    "image": "images/card_19.jpg"
+  },
+  {
+    "id": 20,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Six of Cups",
+    "character": "James (ребёнок)",
+    "meaning_ru": "Ностальгия, воспоминания",
+    "meaning_en": "",
+    "image": "images/card_20.jpg"
+  },
+  {
+    "id": 21,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Seven of Cups",
+    "character": "Caroline Eilander",
+    "meaning_ru": "Иллюзии, выбор",
+    "meaning_en": "",
+    "image": "images/card_21.jpg"
+  },
+  {
+    "id": 22,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Eight of Cups",
+    "character": "Emma Vanderboom",
+    "meaning_ru": "Уход, отказ от прошлого",
+    "meaning_en": "",
+    "image": "images/card_22.jpg"
+  },
+  {
+    "id": 23,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Nine of Cups",
+    "character": "Rose Vanderboom (зрелая)",
+    "meaning_ru": "Эмоциональное удовлетворение",
+    "meaning_en": "",
+    "image": "images/card_23.jpg"
+  },
+  {
+    "id": 24,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Ten of Cups",
+    "character": "Семья Vanderboom",
+    "meaning_ru": "Гармония, завершение",
+    "meaning_en": "",
+    "image": "images/card_24.jpg"
+  },
+  {
+    "id": 25,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Page of Cups",
+    "character": "Emma (девочка)",
+    "meaning_ru": "Чувствительность, интуиция",
+    "meaning_en": "",
+    "image": "images/card_25.jpg"
+  },
+  {
+    "id": 26,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Knight of Cups",
+    "character": "Frank (молодой)",
+    "meaning_ru": "Идеализм, стремление",
+    "meaning_en": "",
+    "image": "images/card_26.jpg"
+  },
+  {
+    "id": 27,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "Queen of Cups",
+    "character": "Mary Vanderboom",
+    "meaning_ru": "Глубокое чувство, жертвенность",
+    "meaning_en": "",
+    "image": "images/card_27.jpg"
+  },
+  {
+    "id": 28,
+    "arcana": "Младший",
+    "suit": "Кубки",
+    "title": "King of Cups",
+    "character": "Samuel Vanderboom",
+    "meaning_ru": "Эмоциональный контроль, алхимия сердца",
+    "meaning_en": "",
+    "image": "images/card_28.jpg"
+  },
+  {
+    "id": 29,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Ace of Swords",
+    "character": "Mr. Owl",
+    "meaning_ru": "Проницательность, новая идея",
+    "meaning_en": "",
+    "image": "images/card_29.jpg"
+  },
+  {
+    "id": 30,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Two of Swords",
+    "character": "Elizabeth Eilander",
+    "meaning_ru": "Раздвоенность, неведение",
+    "meaning_en": "",
+    "image": "images/card_30.jpg"
+  },
+  {
+    "id": 31,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Three of Swords",
+    "character": "Caroline Eilander",
+    "meaning_ru": "Сердечная боль, страдание",
+    "meaning_en": "",
+    "image": "images/card_31.jpg"
+  },
+  {
+    "id": 32,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Four of Swords",
+    "character": "Nicholas Eilander",
+    "meaning_ru": "Покой, отстранённость",
+    "meaning_en": "",
+    "image": "images/card_32.jpg"
+  },
+  {
+    "id": 33,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Five of Swords",
+    "character": "Mr. Rabbit",
+    "meaning_ru": "Жестокость, манипуляции",
+    "meaning_en": "",
+    "image": "images/card_33.jpg"
+  },
+  {
+    "id": 34,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Six of Swords",
+    "character": "Пациент клиники",
+    "meaning_ru": "Переход, бегство от боли",
+    "meaning_en": "",
+    "image": "images/card_34.jpg"
+  },
+  {
+    "id": 35,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Seven of Swords",
+    "character": "Harvey",
+    "meaning_ru": "Хитрость, ложь",
+    "meaning_en": "",
+    "image": "images/card_35.jpg"
+  },
+  {
+    "id": 36,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Eight of Swords",
+    "character": "Emma Vanderboom",
+    "meaning_ru": "Плен разума, ограничения",
+    "meaning_en": "",
+    "image": "images/card_36.jpg"
+  },
+  {
+    "id": 37,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Nine of Swords",
+    "character": "James (кошмары)",
+    "meaning_ru": "Тревога, муки совести",
+    "meaning_en": "",
+    "image": "images/card_37.jpg"
+  },
+  {
+    "id": 38,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Ten of Swords",
+    "character": "Mary (гибель)",
+    "meaning_ru": "Полное разрушение",
+    "meaning_en": "",
+    "image": "images/card_38.jpg"
+  },
+  {
+    "id": 39,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Page of Swords",
+    "character": "Dale (новичок)",
+    "meaning_ru": "Любопытство, наблюдение",
+    "meaning_en": "",
+    "image": "images/card_39.jpg"
+  },
+  {
+    "id": 40,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Knight of Swords",
+    "character": "Dale (в ярости)",
+    "meaning_ru": "Решимость, стремительный бросок",
+    "meaning_en": "",
+    "image": "images/card_40.jpg"
+  },
+  {
+    "id": 41,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "Queen of Swords",
+    "character": "Ida Vanderboom",
+    "meaning_ru": "Интеллект, боль через знание",
+    "meaning_en": "",
+    "image": "images/card_41.jpg"
+  },
+  {
+    "id": 42,
+    "arcana": "Младший",
+    "suit": "Мечи",
+    "title": "King of Swords",
+    "character": "Albert Vanderboom",
+    "meaning_ru": "Холодная логика, контроль",
+    "meaning_en": "",
+    "image": "images/card_42.jpg"
+  },
+  {
+    "id": 43,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Ace of Pentacles",
+    "character": "Leonard Vanderboom",
+    "meaning_ru": "Начало алхимии, материальный путь",
+    "meaning_en": "",
+    "image": "images/card_43.jpg"
+  },
+  {
+    "id": 44,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Two of Pentacles",
+    "character": "Gerard Eilander",
+    "meaning_ru": "Баланс сил, алхимическое равновесие",
+    "meaning_en": "",
+    "image": "images/card_44.jpg"
+  },
+  {
+    "id": 45,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Three of Pentacles",
+    "character": "Rusty Lake Hotel Team",
+    "meaning_ru": "Совместная работа, ритуал",
+    "meaning_en": "",
+    "image": "images/card_45.jpg"
+  },
+  {
+    "id": 46,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Four of Pentacles",
+    "character": "Aldous Vanderboom",
+    "meaning_ru": "Жадность, удержание души",
+    "meaning_en": "",
+    "image": "images/card_46.jpg"
+  },
+  {
+    "id": 47,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Five of Pentacles",
+    "character": "Замороженный пациент",
+    "meaning_ru": "Утрата, холод, изоляция",
+    "meaning_en": "",
+    "image": "images/card_47.jpg"
+  },
+  {
+    "id": 48,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Six of Pentacles",
+    "character": "Jakob Eilander",
+    "meaning_ru": "Обмен, власть над душами",
+    "meaning_en": "",
+    "image": "images/card_48.jpg"
+  },
+  {
+    "id": 49,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Seven of Pentacles",
+    "character": "Frank Vanderboom",
+    "meaning_ru": "Терпение, ожидание результата",
+    "meaning_en": "",
+    "image": "images/card_49.jpg"
+  },
+  {
+    "id": 50,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Eight of Pentacles",
+    "character": "Samuel Vanderboom",
+    "meaning_ru": "Алхимическая практика, мастерство",
+    "meaning_en": "",
+    "image": "images/card_50.jpg"
+  },
+  {
+    "id": 51,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Nine of Pentacles",
+    "character": "Ida Vanderboom",
+    "meaning_ru": "Самодостаточность, зрелость",
+    "meaning_en": "",
+    "image": "images/card_51.jpg"
+  },
+  {
+    "id": 52,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Ten of Pentacles",
+    "character": "Семья Vanderboom",
+    "meaning_ru": "Материальное и духовное наследие",
+    "meaning_en": "",
+    "image": "images/card_52.jpg"
+  },
+  {
+    "id": 53,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Page of Pentacles",
+    "character": "Leonard (ребёнок)",
+    "meaning_ru": "Учёба, алхимическое пробуждение",
+    "meaning_en": "",
+    "image": "images/card_53.jpg"
+  },
+  {
+    "id": 54,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Knight of Pentacles",
+    "character": "Mr. Deer",
+    "meaning_ru": "Преданность делу, ритуальное служение",
+    "meaning_en": "",
+    "image": "images/card_54.jpg"
+  },
+  {
+    "id": 55,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "Queen of Pentacles",
+    "character": "Caroline Eilander",
+    "meaning_ru": "Земная забота, тело и плоть",
+    "meaning_en": "",
+    "image": "images/card_55.jpg"
+  },
+  {
+    "id": 56,
+    "arcana": "Младший",
+    "suit": "Пентакли",
+    "title": "King of Pentacles",
+    "character": "William Vanderboom",
+    "meaning_ru": "Завершение пути, Вечная жизнь",
+    "meaning_en": "",
+    "image": "images/card_56.jpg"
+  },
+  {
+    "id": 57,
+    "arcana": "Мета",
+    "suit": NaN,
+    "title": "The Architect",
+    "character": "Команда Rusty Lake",
+    "meaning_ru": "Создатели мира, наблюдатели вне системы",
+    "meaning_en": "",
+    "image": "images/card_57.jpg"
+  },
+  {
+    "id": 58,
+    "arcana": "Мета",
+    "suit": NaN,
+    "title": "The Mirror",
+    "character": "Игрок",
+    "meaning_ru": "Саморефлексия, признание себя частью цикла",
+    "meaning_en": "",
+    "image": "images/card_58.jpg"
+  },
+  {
+    "id": 59,
+    "arcana": "Мета",
+    "suit": NaN,
+    "title": "The Stage",
+    "character": "Rusty Lake как театр",
+    "meaning_ru": "Мир как спектакль, иллюзия и ритуал",
+    "meaning_en": "",
+    "image": "images/card_59.jpg"
+  },
+  {
+    "id": 60,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Fool",
+    "character": "James Vanderboom",
+    "meaning_ru": "Начало пути, невинность, новое воплощение",
+    "meaning_en": "",
+    "image": "images/card_60.jpg"
+  },
+  {
+    "id": 61,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Magician",
+    "character": "David Eilander / Mr. Rabbit",
+    "meaning_ru": "Созидание, ритуал, сила воли",
+    "meaning_en": "",
+    "image": "images/card_61.jpg"
+  },
+  {
+    "id": 62,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The High Priestess",
+    "character": "Ida Vanderboom",
+    "meaning_ru": "Мудрость, тайна, скрытые знания",
+    "meaning_en": "",
+    "image": "images/card_62.jpg"
+  },
+  {
+    "id": 63,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Empress",
+    "character": "Rose Vanderboom",
+    "meaning_ru": "Плодородие, материнство, любовь",
+    "meaning_en": "",
+    "image": "images/card_63.jpg"
+  },
+  {
+    "id": 64,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Emperor",
+    "character": "Jakob Eilander / Mr. Owl",
+    "meaning_ru": "Власть, структура, контроль",
+    "meaning_en": "",
+    "image": "images/card_64.jpg"
+  },
+  {
+    "id": 65,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Hierophant",
+    "character": "Nicholas Eilander / Mr. Deer",
+    "meaning_ru": "Вера, традиции, ритуал",
+    "meaning_en": "",
+    "image": "images/card_65.jpg"
+  },
+  {
+    "id": 66,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Lovers",
+    "character": "Mary Vanderboom",
+    "meaning_ru": "Любовь, союз, выбор",
+    "meaning_en": "",
+    "image": "images/card_66.jpg"
+  },
+  {
+    "id": 67,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Chariot",
+    "character": "Dale Vandermeer",
+    "meaning_ru": "Путь, борьба, достижение цели",
+    "meaning_en": "",
+    "image": "images/card_67.jpg"
+  },
+  {
+    "id": 68,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "Strength",
+    "character": "Margaret Eilander / Mrs. Pigeon",
+    "meaning_ru": "Мужество, сила духа, стойкость",
+    "meaning_en": "",
+    "image": "images/card_68.jpg"
+  },
+  {
+    "id": 69,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Hermit",
+    "character": "Frank Vanderboom",
+    "meaning_ru": "Одиночество, самоанализ, уединение",
+    "meaning_en": "",
+    "image": "images/card_69.jpg"
+  },
+  {
+    "id": 70,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Wheel of Fortune",
+    "character": "Samuel Vanderboom",
+    "meaning_ru": "Судьба, перемены, цикличность",
+    "meaning_en": "",
+    "image": "images/card_70.jpg"
+  },
+  {
+    "id": 71,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "Justice",
+    "character": "Elizabeth Eilander / Ms. Pheasant",
+    "meaning_ru": "Истина, справедливость, равновесие",
+    "meaning_en": "",
+    "image": "images/card_71.jpg"
+  },
+  {
+    "id": 72,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Hanged Man",
+    "character": "Emma Vanderboom",
+    "meaning_ru": "Жертва, изменение перспективы",
+    "meaning_en": "",
+    "image": "images/card_72.jpg"
+  },
+  {
+    "id": 73,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "Death",
+    "character": "Leonard Vanderboom",
+    "meaning_ru": "Конец, трансформация, очищение",
+    "meaning_en": "",
+    "image": "images/card_73.jpg"
+  },
+  {
+    "id": 74,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "Temperance",
+    "character": "Gerard Eilander / Mr. Boar",
+    "meaning_ru": "Баланс, алхимия, умеренность",
+    "meaning_en": "",
+    "image": "images/card_74.jpg"
+  },
+  {
+    "id": 75,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Devil",
+    "character": "Albert Vanderboom",
+    "meaning_ru": "Одержимость, привязанности, тьма",
+    "meaning_en": "",
+    "image": "images/card_75.jpg"
+  },
+  {
+    "id": 76,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Tower",
+    "character": "Harvey",
+    "meaning_ru": "Руины, крушение иллюзий",
+    "meaning_en": "",
+    "image": "images/card_76.jpg"
+  },
+  {
+    "id": 77,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Star",
+    "character": "Vincent van Gogh",
+    "meaning_ru": "Надежда, вдохновение, направление",
+    "meaning_en": "",
+    "image": "images/card_77.jpg"
+  },
+  {
+    "id": 78,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Moon",
+    "character": "Caroline Eilander",
+    "meaning_ru": "Иллюзии, страхи, интуиция",
+    "meaning_en": "",
+    "image": "images/card_78.jpg"
+  },
+  {
+    "id": 79,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The Sun",
+    "character": "Robert Hill",
+    "meaning_ru": "Просветление, энергия, радость",
+    "meaning_en": "",
+    "image": "images/card_79.jpg"
+  },
+  {
+    "id": 80,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "Judgement",
+    "character": "Aldous Vanderboom / Mr. Crow",
+    "meaning_ru": "Суд, пробуждение, итог",
+    "meaning_en": "",
+    "image": "images/card_80.jpg"
+  },
+  {
+    "id": 81,
+    "arcana": "Старший",
+    "suit": NaN,
+    "title": "The World",
+    "character": "William / Laura Vanderboom",
+    "meaning_ru": "Завершение, полнота, выход за пределы",
+    "meaning_en": "",
+    "image": "images/card_81.jpg"
+  }
+]
